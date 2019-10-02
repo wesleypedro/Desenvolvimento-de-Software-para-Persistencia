@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no"?>
+<!--<!DOCTYPE livros SYSTEM "livros.dtd">-->
+
+<livros xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='livros.xsd'>
+	<livro ano="1605">
+		<titulo>Dom Quixote</titulo>
+		<editora>DaEsquina</editora>
+		<edicao>20</edicao>
+		<isbn>1234567890123</isbn>
+		<autores>
+			<autor>
+				<nome>Miguel de Cervantes</nome>
+				<endereco>No one knows</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="1869">
+		<titulo>Guerra e Paz</titulo>
+		<editora>Poison</editora>
+		<edicao>15</edicao>
+		<isbn>3210987654321</isbn>
+		<autores>
+			<autor>
+				<nome>Liev Tolstói</nome>
+				<endereco>Cemitério</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="1924">
+		<titulo>A Montanha Mágica</titulo>
+		<editora>Alemã</editora>
+		<edicao>10</edicao>
+		<isbn>0987654321321</isbn>
+		<autores>
+			<autor>
+				<nome>Thomas Mann</nome>
+				<endereco>Rua Lá de Baixo</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="1967">
+		<titulo>Cem Anos de Solidão</titulo>
+		<editora>Inovar</editora>
+		<edicao>5</edicao>
+		<isbn>1122334455667</isbn>
+		<autores>
+			<autor>
+				<nome>Gabriel García Márquez</nome>
+				<endereco>Num Potinho</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="1321">
+		<titulo>A Divina Comédia</titulo>
+		<editora>Italiana</editora>
+		<edicao>35</edicao>
+		<isbn>0099887766554</isbn>
+		<autores>
+			<autor>
+				<nome>Dante Alighiere</nome>
+				<endereco>No espaço</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="2000">
+		<titulo>Vozes do Vento</titulo>
+		<editora>FTD</editora>
+		<edicao>4</edicao>
+		<isbn>987123065409</isbn>
+		<autores>
+			<autor>
+				<nome>Sua Mãe</nome>
+				<endereco>Na Esquina</endereco>
+			</autor>
+			<autor>
+				<nome>Sua Tia</nome>
+				<endereco>Na Outra Esquina</endereco>
+			</autor>
+		</autores>
+	</livro>
+
+	<livro ano="1999">
+		<titulo>Os Pensadores</titulo>
+		<editora>Estante Virtual</editora>
+		<edicao>6</edicao>
+		<isbn>1112223334440</isbn>
+		<autores>
+			<autor>
+				<nome>Platão</nome>
+				<endereco>Na Eternidade</endereco>
+			</autor>
+		</autores>
+	</livro>
+</livros>

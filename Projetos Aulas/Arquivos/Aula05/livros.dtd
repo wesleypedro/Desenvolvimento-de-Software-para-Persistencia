@@ -1,0 +1,11 @@
+<!ELEMENT livros (livro+)>
+<!ELEMENT livro (titulo,editora,edicao,isbn,autores+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editora (#PCDATA)>
+<!ELEMENT edicao (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nome,endereco)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT endereco (#PCDATA)>
+<!ATTLIST livro ano CDATA #REQUIRED>

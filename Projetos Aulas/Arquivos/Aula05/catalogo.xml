@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no"?>
+<!--<!DOCTYPE catalogo SYSTEM "catalogo.dtd">-->
+
+<catalogo xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='catalogo.xsd'>
+	<cd ano="2019">
+		<titulo>Populares</titulo>
+		<artista>O Povo</artista>
+		<gravadora>Comunitaria</gravadora>
+		<faixas>
+			<faixa>Deça dai seu corno</faixa>
+			<faixa>A barata da vizinha</faixa>
+			<faixa>Doente de amor</faixa>
+		</faixas>
+		<preco>10</preco>
+	</cd>
+
+	<cd ano="1976">
+		<titulo>Their greatest hits</titulo>
+		<artista>Eagles</artista>
+		<gravadora>Universal</gravadora>
+		<faixas>
+			<faixa>Musica 01</faixa>
+			<faixa>Musica 02</faixa>
+		</faixas>
+		<preco>15</preco>
+	</cd>
+
+	<cd ano="1979">
+		<titulo>The Wall</titulo>
+		<artista>Pink Floyd</artista>
+		<gravadora>Cometa</gravadora>
+		<faixas>
+			<faixa>Song 01</faixa>
+			<faixa>Song 02</faixa>
+		</faixas>
+		<preco>16</preco>
+	</cd>
+
+	<cd ano="1971">
+		<titulo>Led Zeppelin IV</titulo>
+		<artista>Led Zeppelin</artista>
+		<gravadora>Unknown</gravadora>
+		<faixas>
+			<faixa>Music 01</faixa>
+			<faixa>Music 02</faixa>
+			<faixa>Music 03</faixa>
+		</faixas>
+		<preco>14</preco>
+	</cd>
+</catalogo>

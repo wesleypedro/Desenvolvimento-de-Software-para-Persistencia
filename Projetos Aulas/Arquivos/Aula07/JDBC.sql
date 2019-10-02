@@ -1,0 +1,46 @@
+CREATE DATABASE dsp1809;
+
+USE dsp1809;
+
+CREATE TABLE Cliente(
+	id INTEGER NOT NULL AUTOINCREMENT,
+	nome VARCHAR(50) NOT NULL,
+	cpf VARCHAR(20) NOT NULL,
+	CONSTRAINT PRIMARY KEY (id)
+);
+	
+CREATE TABLE Telefone(
+	id INTEGER NOT NULL,
+	dd INTEGER NOT NULL,
+	numero INTEGER NOT NULL,
+
+	idCliente INTEGER NOT NULL,
+	CONSTRAINT PRIMARY KEY (id),
+	CONSTRAINT FK_Telefone FOREIGN KEY (idCliente) REFERENCES Cliente(id)
+);
+
+CREATE TABLE Endereco(
+	id INTEGER NOT NULL,
+	rua VARCHAR(50) NOT NULL,
+	numero INT NOT NULL,
+	bairro VARCHAR(50) NOT NULL,
+	cidade VARCHAR(50) NOT NULL,
+
+	idCliente INTEGER NOT NULL,
+	CONSTRAINT PRIMARY KEY (id),
+	CONSTRAINT FK_Endereco FOREIGN KEY (idCliente) REFERENCES Cliente(id)
+);
+
+CREATE TABLE ClienteEndereco(
+	clienteId INTEGER NOT NULL,
+	enderecoId INTEGER NOT NULL,
+	CONSTRAINT PRIMARY KEY (clienteId, enderecoId),
+	CONSTRAINT FK_ClienteEndereco_1 FOREIGN KEY (clienteId) REFERENCES Cliente(id),
+	CONSTRAINT FK_ClienteEndereco_2 FOREIGN KEY (enderecoId) REFERENCES Endereco(id)
+);
+
+
+
+
+INSERT INTO Cliente VALUES (0, 'Wesley', '123');
+INSERT INTO Cliente VALUES (1, 'Pedro', '321');

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<livros>
+    <livro ano="1">
+        <titulo>Título 1</titulo>
+        <isbn>1</isbn>
+        <editora>Editora 1</editora>
+        <edicao>1ª</edicao>
+        <autores>
+            <autor>
+                <nome>Eu</nome>
+                <endereco>Nada</endereco>
+            </autor>
+            <autor>
+                <nome>Alguém</nome>
+                <endereco>Lugar Nenhum</endereco>
+            </autor>
+        </autores>
+    </livro>
+    <livro ano="2">
+        <titulo>Título 2</titulo>
+        <isbn>2</isbn>
+        <editora>Editora 2</editora>
+        <edicao>2ª</edicao>
+        <autores>
+            <autor>
+                <nome>Me</nome>
+                <endereco>Nothing</endereco>
+            </autor>
+            <autor>
+                <nome>Someone</nome>
+                <endereco>Aneone Place</endereco>
+            </autor>
+        </autores>
+    </livro>
+    <livro ano="3">
+        <titulo>Título 3</titulo>
+        <isbn>3</isbn>
+        <editora>Editora 3</editora>
+        <edicao>1ª</edicao>
+        <autores>
+            <autor>
+                <nome>Yo</nome>
+                <endereco>Nada</endereco>
+            </autor>
+            <autor>
+                <nome>Alguien</nome>
+                <endereco>Logradouro Algun</endereco>
+            </autor>
+        </autores>
+    </livro>
+</livros>

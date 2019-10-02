@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name='tAutor'>
+		<xs:sequence>
+			<xs:element name='nome' type='xs:string'/>
+			<xs:element name='endereco' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tAutores'>
+		<xs:sequence>
+			<xs:element name='autor' type='tAutor' minOccurs='1' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tLivro'>
+		<xs:sequence>
+			<xs:element name='titulo' type='xs:string'/>
+			<xs:element name='editora' type='xs:string'/>
+			<xs:element name='edicao' type='xs:integer'/>
+			<xs:element name='isbn' type='xs:integer'/>
+			<xs:element name='autores' type='tAutores'/>
+		</xs:sequence>
+		<xs:attribute name='ano' type='xs:string'/>
+	</xs:complexType>
+
+	<xs:complexType name='tLivros'>
+		<xs:sequence>
+			<xs:element name='livro' type='tLivro' minOccurs='0' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name='livros' type='tLivros'/>
+
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name='tFaixas'>
+		<xs:sequence>
+			<xs:element name='faixa' type='xs:string' minOccurs='1' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tCd'>
+		<xs:sequence>
+			<xs:element name='titulo' type='xs:string'/>
+			<xs:element name='artista' type='xs:string'/>
+			<xs:element name='gravadora' type='xs:string'/>
+			<xs:element name='faixas' type='tFaixas'/>
+			<xs:element name='preco' type='xs:double'/>
+		</xs:sequence>
+		<xs:attribute name='ano' type='xs:string'/>
+	</xs:complexType>
+
+	<xs:complexType name='tCatalogo'>
+		<xs:sequence>
+			<xs:element name='cd' type='tCd' minOccurs='1' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name='catalogo' type='tCatalogo'/>
+	
+</xs:schema>

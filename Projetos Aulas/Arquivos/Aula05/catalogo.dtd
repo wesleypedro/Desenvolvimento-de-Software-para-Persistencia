@@ -1,0 +1,9 @@
+<!ELEMENT catalogo (cd+)>
+<!ELEMENT cd (titulo,artista,gravadora,faixas,preco)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT gravadora (#PCDATA)>
+<!ELEMENT faixas (faixa+)>
+<!ELEMENT faixa (#PCDATA)>
+<!ELEMENT preco (#PCDATA)>
+<!ATTLIST cd ano CDATA #REQUIRED>

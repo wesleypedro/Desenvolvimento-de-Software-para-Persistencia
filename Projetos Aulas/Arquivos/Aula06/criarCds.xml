@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogo>
+    <cd ano="2011">
+        <titulo>Título 1</titulo>
+        <artista>Ashuashua</artista>
+        <gravadora>Cometa</gravadora>
+        <faixas>
+            <faixa>Nada</faixa>
+            <faixa>Lugar Nenhum</faixa>
+        </faixas>
+        <preco>10.0</preco>
+    </cd>
+    <cd ano="2012">
+        <titulo>Título 2</titulo>
+        <artista>Me</artista>
+        <gravadora>Não tem</gravadora>
+        <faixas>
+            <faixa>Nothing</faixa>
+            <faixa>Aneone Place</faixa>
+        </faixas>
+        <preco>12.5</preco>
+    </cd>
+    <cd ano="2015">
+        <titulo>Título 3</titulo>
+        <artista>-(%)-</artista>
+        <gravadora>Não sei</gravadora>
+        <faixas>
+            <faixa>Nada</faixa>
+            <faixa>Logradouro Algun</faixa>
+        </faixas>
+        <preco>25.99</preco>
+    </cd>
+</catalogo>
