@@ -1,0 +1,17 @@
+package model;
+
+public class potencial {
+	private desc_porte desc_potencial;
+	
+	public potencial(desc_porte desc_potencial) {
+		this.desc_potencial = desc_potencial;
+	}
+	
+	public desc_porte getPorte() {
+		return this.desc_potencial;
+	}
+	
+	public void setPorte(desc_porte porte) {
+		this.desc_potencial = porte;
+	}
+}

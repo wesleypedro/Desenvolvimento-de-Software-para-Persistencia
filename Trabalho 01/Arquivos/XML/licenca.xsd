@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name='tAssunto'>
+		<xs:sequence>
+			<xs:element name='CodigoAssunto' type='xs:string'/>
+			<xs:element name='DescricaoAssunto' type='xs:string'/>
+			<xs:element name='SiglaAssunto' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tMunicipio'>
+		<xs:sequence>
+			<xs:element name='cod_ibge' type='xs:string'/>
+			<xs:element name='nome_municipio' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tSubtipologia_classe'>
+		<xs:sequence>
+			<xs:element name='idsituacao' type='xs:string'/>
+			<xs:element name='codigo_subclasse' type='xs:string'/>
+			<xs:element name='desc_classe' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tPorte'>
+		<xs:sequence>
+			<xs:element name='desc_porte' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tEnquadramento_porte'>
+		<xs:sequence>
+			<xs:element name='porte' type='tPorte'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tPotencial'>
+		<xs:sequence>
+			<xs:element name='desc_potencial' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tEnquadramento_potencial'>
+		<xs:sequence>
+			<xs:element name='codigopotencial' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
+			<xs:element name='potencial' type='tPotencial' minOccurs='0' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name='tSituacao'>
+		<xs:sequence>
+			<xs:element name='idSituacao' type='xs:string'/>
+			<xs:element name='situacao' type='xs:string'/>
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name='tLicenca'>
+		<xs:sequence>
+			<xs:element name='Assunto' type='tAssunto'/>
+			<xs:element name='idProcesso' type='xs:string'/>
+			<xs:element name='data_cadastro' type='xs:string'/>
+			<xs:element name='Razao_Social' type='xs:string'/>
+			<xs:element name='CNPJ_CPF' type='xs:string'/>
+			<xs:element name='idempreendimento' type='xs:string'/>
+			<xs:element name='idEmpreendedor' type='xs:string'/>
+			<xs:element name='Inscriacao_estadual' type='xs:string'/>
+			<xs:element name='Endereco' type='xs:string'/>
+			<xs:element name='cep' type='xs:string'/>
+			<xs:element name='numero' type='xs:string'/>
+			<xs:element name='Bairro' type='xs:string'/>
+			<xs:element name='complemento' type='xs:string'/>
+			<xs:element name='Municipio' type='tMunicipio'/>
+			<xs:element name='validade_licenca' type='xs:string'/>
+			<xs:element name='Subtipologia_classe' type='tSubtipologia_classe'/>
+			<xs:element name='codigoclasse' type='xs:string'/>
+			<xs:element name='Enquadramento_porte' type='tEnquadramento_porte'/>
+			<xs:element name='Enquadramento_potencial' type='tEnquadramento_potencial'/>
+			<xs:element name='emissao_licenca' type='xs:string'/>
+			<xs:element name='Situacao' type='tSituacao'/>
+			<xs:element name='cd_seg' type='xs:string'/>
+			<xs:element name='cod_cabure' type='xs:string'/>
+			<xs:element name='Caracterizacao' type='xs:string'/>
+			<xs:element name='Resumo_consulta' type='xs:string'/>
+			<xs:element name='Requisitos' type='xs:string'/>
+			<xs:element name='observacao' type='xs:string'/>
+			<xs:element name='despacho' type='xs:string'/>
+			<xs:element name='objetivo_aut' type='xs:string'/>
+			<xs:element name='observacao_aut' type='xs:string'/>
+		</xs:sequence>
+		<xs:attribute name='idlicenca' type='xs:string'/>
+	</xs:complexType>
+
+	<xs:complexType name='tLicencas'>
+		<xs:sequence>
+			<xs:element name='licenca' type='tLicenca' minOccurs='0' maxOccurs='unbounded'/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name='licencas' type='tLicencas'/>
+
+</xs:schema>

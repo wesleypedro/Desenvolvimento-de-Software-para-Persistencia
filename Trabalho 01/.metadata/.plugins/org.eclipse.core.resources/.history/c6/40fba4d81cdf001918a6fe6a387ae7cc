@@ -1,0 +1,27 @@
+package model;
+
+public class Municipios {
+	private String cod_ibge;
+	private String nome_municipio;
+	
+	public Municipios(String cod_ibge, String nome_municipio) {
+		this.cod_ibge = cod_ibge;
+		this.nome_municipio = nome_municipio;
+	}
+
+	public String getCod_ibge() {
+		return cod_ibge;
+	}
+
+	public void setCod_ibge(String cod_ibge) {
+		this.cod_ibge = cod_ibge;
+	}
+
+	public String getNome_municipio() {
+		return nome_municipio;
+	}
+
+	public void setNome_municipio(String nome_municipio) {
+		this.nome_municipio = nome_municipio;
+	}
+}

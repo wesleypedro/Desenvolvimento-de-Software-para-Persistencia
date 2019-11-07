@@ -1,0 +1,17 @@
+package model;
+
+public class porte {
+	private desc_porte porte;
+	
+	public porte(desc_porte porte) {
+		this.porte = porte;
+	}
+	
+	public desc_porte getPorte() {
+		return this.porte;
+	}
+	
+	public void setPorte(desc_porte porte) {
+		this.porte = porte;
+	}
+}

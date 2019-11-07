@@ -1,0 +1,33 @@
+package model;
+
+public class Licencas {
+	private String idlicenca;
+	private Assunto assunto;
+	private String idProcesso;
+	private String data_cadastro;
+	private String Razao_Social;
+	private String CNPJ_CPF;
+	private Empreendimento empreendimento;
+	private Empreendedor empreendedor;
+	private String Inscricao_estadual;
+	private String endereco;
+	private String cep;
+	private String numero;
+	private String Bairro;
+	private String complemento;
+	private Municipios municipio;
+	private String validade_licenca;
+	private Subtipologia_classe subtipologia;
+	private String codigoclasse;
+	private porte enquadramento_porte;
+	private potencial enquadramento_potencial;
+	private String emissao_licenca;
+	private Situacao situacao;
+	private String cd_seg;
+	private String cod_cobure;
+	private String caracterizacao;
+	private String observacao;
+	private String despacho;
+	private String objetivo_aut;
+	private String observacao_aut;
+}

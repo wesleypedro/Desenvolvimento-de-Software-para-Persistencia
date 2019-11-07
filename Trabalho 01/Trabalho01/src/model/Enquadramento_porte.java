@@ -1,0 +1,19 @@
+package model;
+
+public class Enquadramento_porte {
+	private Porte porte;
+	
+	public Enquadramento_porte(Porte porte) {
+		this.porte = porte;
+	}
+	
+	public Enquadramento_porte() {}
+
+	public Porte getPorte() {
+		return this.porte;
+	}
+	
+	public void setPorte(Porte porte) {
+		this.porte = porte;
+	}
+}

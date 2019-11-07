@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="toJson.ToJson"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.TransformerFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.Transformer"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.dom.DOMSource"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.stream.StreamResult"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.OutputKeys"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.ParserConfigurationException"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.TransformerException"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Attr"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.xml.sax.helpers.DefaultHandler"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="model.Assunto"/>
+    <fullyQualifiedTypeName name="model.Municipios"/>
+    <fullyQualifiedTypeName name="model.Subtipologia_classe"/>
+    <fullyQualifiedTypeName name="model.Enquadramento_porte"/>
+    <fullyQualifiedTypeName name="model.Enquadramento_potencial"/>
+</qualifiedTypeNameHistroy>

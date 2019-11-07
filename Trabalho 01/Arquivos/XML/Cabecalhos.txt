@@ -1,0 +1,8 @@
+Cabecalhos
+
+Cabecalho DTD
+<!DOCTYPE licenca SYSTEM "licenca.dtd">
+
+
+Cabecalho XML Schema
+<licencas xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='licenca.xsd'>

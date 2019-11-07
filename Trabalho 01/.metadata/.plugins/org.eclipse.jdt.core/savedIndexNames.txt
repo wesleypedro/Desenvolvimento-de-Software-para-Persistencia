@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/mnt/Data/UFC/2019.2 - DSP/Trabalho 01/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
+2994435971.index
+2014460334.index
+3167410686.index

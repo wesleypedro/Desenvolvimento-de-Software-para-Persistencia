@@ -1,0 +1,17 @@
+package model;
+
+public class desc_porte {
+	private String desc_porte;
+	
+	public desc_porte(String desc_porte) {
+		this.desc_porte = desc_porte; 
+	}
+	
+	public String getdesc_porte() {
+		return this.desc_porte;
+	}
+	
+	public void setdesc_orte(String desc_porte) {
+		this.desc_porte = desc_porte;
+	}
+}

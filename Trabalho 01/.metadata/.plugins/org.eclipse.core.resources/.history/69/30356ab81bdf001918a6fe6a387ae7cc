@@ -1,0 +1,488 @@
+package toJson;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import model.Assunto;
+import model.Enquadramento_porte;
+import model.Enquadramento_potencial;
+import model.Licencas;
+import model.Municipios;
+import model.Porte;
+import model.Potencial;
+import model.Situacao;
+import model.Subtipologia_classe;
+
+public class ToJson extends DefaultHandler{
+	private static final String CAMINHO_XML = "/mnt/Data/UFC/2019.2 - DSP/Trabalho 01/Arquivos/XML/licencas.xml";
+	private static final String CAMINHO_JSON = "/mnt/Data/UFC/2019.2 - DSP/Trabalho 01/Arquivos/JSON/licencas.json";
+	
+	static List<Licencas> licencas = new ArrayList<>();
+	Licencas licenca = null;
+	Assunto assunto = null;
+	Municipios municipio = null;
+	Subtipologia_classe subtipologia = null;
+	Enquadramento_porte Eporte = null;
+	Porte porte = null;
+	Enquadramento_potencial Epotencial = null;
+	Potencial potencial = null;
+	Situacao situacao = null;
+	
+	
+	static boolean bidlicenca = false;
+	static boolean blicenca = false;
+	static boolean bassunto = false;
+	static boolean bidProcesso = false;
+	static boolean bdata_cadastro = false;
+	static boolean bRazao_Social = false;
+	static boolean bCNPJ_CPF = false;
+	static boolean bidempreendimento = false;
+	static boolean bidEmpreendedor = false;
+	static boolean bInscricao_estadual = false;
+	static boolean bendereco = false;
+	static boolean bcep = false;
+	static boolean bnumero = false;
+	static boolean bBairro = false;
+	static boolean bcomplemento = false;
+	static boolean bmunicipio = false;
+	static boolean bvalidade_licenca = false;
+	static boolean bsubtipologia = false;
+	static boolean bcodigoclasse = false;
+	static boolean benquadramento_porte = false;
+	static boolean benquadramento_potencial = false;
+	static boolean bemissao_licenca = false;
+	static boolean bSituacao = false;
+	static boolean bcd_seg = false;
+	static boolean bcod_cabure = false;
+	static boolean bcaracterizacao = false;
+	static boolean bResumo_consulta = false;
+	static boolean bResquisitos = false;
+	static boolean bobservacao = false;
+	static boolean bdespacho = false;
+	static boolean bobjetivo_aut = false;
+	static boolean bobservacao_aut = false;
+	
+	//Subtags
+	static boolean bCodigoAssunto = false;
+	static boolean bDescricaoAssunto = false;
+	static boolean bSiglaAssunto = false;
+	
+	static boolean bcod_ibge = false;
+	static boolean bnome_municipio = false;
+	
+	static boolean bidsituacao = false;
+	static boolean bcodigo_subclasse = false;
+	static boolean bdesc_classe = false;
+	
+	static boolean bporte = false;
+	static boolean bdesc_porte = false;
+	
+	static boolean bpotencial = false;
+	static boolean bdesc_potencial = false;
+	
+	static boolean bidSituacao = false;
+	static boolean bsituacao = false;
+	
+	
+	public ToJson(){}
+	
+	public void executar() {
+		parse(CAMINHO_XML);
+	}
+	
+	public void parse(String CAMINHO_XML) {
+		try {
+			SAXParserFactory factory = SAXParserFactory.newInstance();
+			SAXParser parser = factory.newSAXParser();
+			parser.parse(CAMINHO_XML, this);
+		} catch (ParserConfigurationException | SAXException | IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+
+	@Override
+	public void startDocument() throws SAXException {
+		System.out.println("Iniciando processamento do XML");
+	}
+
+	@Override
+	public void endDocument() throws SAXException {
+		System.out.println("Fim do processamento do XML");
+	}
+
+	@Override
+	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+//		if (qName.equals("licenca")) {
+//			bidlicenca = true;
+//		}
+		if (qName.equals("licenca")) {
+			blicenca = true;
+		}
+		if (qName.equals("Assunto")) {
+			bassunto = true;
+		}
+		if (qName.equals("idProcesso")) {
+			bidProcesso = true;
+		}
+		if (qName.equals("data_cadastro")) {
+			bdata_cadastro = true;
+		}
+		if (qName.equals("Razao_Social")) {
+			bRazao_Social = true;
+		}
+		if (qName.equals("CNPJ_CPF")) {
+			bCNPJ_CPF = true;
+		}
+		if (qName.equals("idempreendimento")) {
+			bidempreendimento = true;
+		}
+		if (qName.equals("idEmpreendedor")) {
+			bidEmpreendedor = true;
+		}
+		if (qName.equals("Inscriacao_estadual")) {
+			bInscricao_estadual = true;
+		}
+		if (qName.equals("Endereco")) {
+			bendereco = true;
+		}
+		if (qName.equals("cep")) {
+			bcep = true;
+		}
+		if (qName.equals("numero")) {
+			bnumero = true;
+		}
+		if (qName.equals("Bairro")) {
+			bBairro = true;
+		}
+		if (qName.equals("complemento")) {
+			bcomplemento = true;
+		}
+		if (qName.equals("Municipio")) {
+			bmunicipio = true;
+		}
+		if (qName.equals("validade_licenca")) {
+			bvalidade_licenca = true;
+		}
+		if (qName.equals("Subtipologia_classe")) {
+			bsubtipologia = true;
+		}
+		if (qName.equals("codigoclasse")) {
+			bcodigoclasse = true;
+		}
+		if (qName.equals("Enquadramento_porte")) {
+			benquadramento_porte = true;
+		}
+		if (qName.equals("Enquadramento_potencial")) {
+			benquadramento_potencial = true;
+		}
+		if (qName.equals("emissao_licenca")) {
+			bemissao_licenca = true;
+		}
+		if (qName.equals("Situacao")) {
+			bSituacao = true;
+		}
+		if (qName.equals("cd_seg")) {
+			bcd_seg = true;
+		}
+		if (qName.equals("cod_cabure")) {
+			bcod_cabure = true;
+		}
+		if (qName.equals("Caracterizacao")) {
+			bcaracterizacao = true;
+		}
+		if (qName.equals("Resumo_consulta")) {
+			bResumo_consulta = true;
+		}
+		if (qName.equals("Requisitos")) {
+			bResquisitos = true;
+		}
+		if (qName.equals("observacao")) {
+			bobservacao = true;
+		}
+		if (qName.equals("despcaho")) {
+			bdespacho = true;
+		}
+		if (qName.equals("objetivo_aut")) {
+			bobjetivo_aut = true;
+		}
+		if (qName.equals("observacao_aut")) {
+			bobservacao_aut = true;
+		}
+		
+		
+		if (qName.equals("bCodigoAssunto")){
+			bCodigoAssunto = true;
+		}
+		if (qName.equals("bDescricaoAssunt")){
+			bDescricaoAssunto = true;
+		}
+		if(qName.equals("bSiglaAssunto")){
+			bSiglaAssunto = true;
+		}
+		
+		if(qName.equals("bcod_ibge")){
+			bcod_ibge = true;
+		}
+		if(qName.equals("bnome_municipio")){
+			bnome_municipio = true;
+		}
+		
+		if(qName.equals("bidsituacao")){
+			bidsituacao = true;
+		}
+		if(qName.equals("bcodigo_subclasse")){
+			bcodigo_subclasse = true;
+		}
+		if(qName.equals("bdesc_classe")) {
+			bdesc_classe = true;
+		}
+		
+		if(qName.equals("bporte")) {
+			bporte = true;
+		}
+		if(qName.equals("bdesc_porte")) {
+			bdesc_porte = true;
+		}
+		
+		if(qName.equals("bpotencial")) {
+			bpotencial = true;
+		}
+		if(qName.equals("bdesc_potencial")) {
+			bdesc_potencial = true;
+		}
+		
+		if(qName.equals("bidSituacao")) {
+			bidSituacao = true;
+		}
+		if(qName.equals("bsituacao")) {
+			bsituacao = true;
+		}
+	}
+
+	@Override
+	public void endElement(String uri, String localName, String qName) throws SAXException {
+		
+	}
+
+	@Override
+	public void characters(char[] ch, int start, int length) throws SAXException {
+		if(blicenca) {
+			licenca = new Licencas();
+			System.out.println(new String(ch, start, length));
+			blicenca = false;
+		}
+		if(bassunto) {
+			System.out.println(new String(ch, start, length));
+			bassunto = false;
+		}
+		if(bidProcesso) {
+			System.out.println(new String(ch, start, length));
+			bidProcesso = false;
+		}	
+		if(bdata_cadastro) {
+			System.out.println(new String(ch, start, length));
+			bdata_cadastro = false;
+		}
+		if(bRazao_Social) {
+			System.out.println(new String(ch, start, length));
+			bRazao_Social = false;
+		}
+		if(bCNPJ_CPF) {
+			System.out.println(new String(ch, start, length));
+			bCNPJ_CPF = false;
+		}
+		if(bidempreendimento) {
+			System.out.println(new String(ch, start, length));
+			bidempreendimento = false;
+		}
+		if(bidEmpreendedor) {
+			System.out.println(new String(ch, start, length));
+			bidEmpreendedor = false;
+		}
+		if(bInscricao_estadual) {
+			System.out.println(new String(ch, start, length));
+			bInscricao_estadual = false;
+		}
+		if(bendereco) {
+			System.out.println(new String(ch, start, length));
+			bendereco = false;
+		}
+		if(bcep) {
+			System.out.println(new String(ch, start, length));
+			bcep = false;
+		}
+		if(bnumero) {
+			System.out.println(new String(ch, start, length));
+			bnumero = false;
+		}
+		if(bBairro) {
+			System.out.println(new String(ch, start, length));
+			bBairro = false;
+		}
+		if(bcomplemento) {
+			System.out.println(new String(ch, start, length));
+			bcomplemento = false;
+		}
+		if(bmunicipio) {
+			System.out.println(new String(ch, start, length));
+			bmunicipio = false;
+		}
+		if(bvalidade_licenca) {
+			
+			bvalidade_licenca = false;
+		}
+		if(bsubtipologia) {
+			
+			bsubtipologia = false;
+		}
+		if(bcodigoclasse) {
+			
+			bcodigo_subclasse = false;
+		}
+		if(benquadramento_porte) {
+			
+			benquadramento_porte = false;
+		}
+		if(benquadramento_potencial) {
+			
+			benquadramento_potencial = false;
+		}
+		if(bemissao_licenca) {
+			
+			bemissao_licenca = false;
+		}
+		if(bSituacao) {
+			
+			bSituacao = false;
+		}
+		if(bcd_seg) {
+			
+			bcd_seg = false;
+		}
+		if(bcod_cabure) {
+			
+			bcod_cabure = false;
+		}
+		if(bcaracterizacao) {
+			
+			bcaracterizacao = false;
+		}
+		if(bResumo_consulta) {
+			
+			bResumo_consulta = false;
+		}
+		if(bResquisitos) {
+			
+			bResquisitos = false;
+		}
+		if(bobservacao) {
+			
+			bobservacao = false;
+		}
+		if(bdespacho) {
+			
+			bdespacho = false;
+		}
+		if(bobjetivo_aut) {
+			
+			bobjetivo_aut = false;
+		}
+		if(bobservacao_aut) {
+			
+			bobservacao_aut = false;
+		}
+		
+		
+		
+		
+		if (bCodigoAssunto){
+			
+			bCodigoAssunto = false;
+		}
+		if (bDescricaoAssunto){
+			
+			bDescricaoAssunto = false;
+		}
+		if(bSiglaAssunto){
+			
+			bSiglaAssunto = false;
+		}
+		
+		if(bcod_ibge){
+			
+			bcod_ibge = false;
+		}
+		if(bnome_municipio){
+			
+			bnome_municipio = false;
+		}
+		
+		if(bidsituacao){
+			
+			bidsituacao = false;
+		}
+		if(bcodigo_subclasse){
+			
+			bcodigo_subclasse = false;
+		}
+		if(bdesc_classe) {
+			
+			bdesc_classe = false;
+		}
+		
+		if(bporte) {
+			
+			bporte = false;
+		}
+		if(bdesc_porte) {
+			
+			bdesc_porte = false;
+		}
+		
+		if(bpotencial) {
+			
+			bpotencial = false;
+		}
+		if(bdesc_potencial) {
+			
+			bdesc_potencial = false;
+		}
+		
+		if(bidSituacao) {
+			
+			bidSituacao = false;
+		}
+		if(bsituacao) {
+			
+			bsituacao = false;
+		}
+	}
+	
+	
+	public static void gerarJson(List<Licencas> licencas) {
+		System.out.println("Salvando em JSON");
+		ObjectMapper mapper = new ObjectMapper();
+		try {
+			mapper.writeValue(new File(CAMINHO_JSON), licencas);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("Objeto salvo no JSON");
+	}
+	
+	
+}

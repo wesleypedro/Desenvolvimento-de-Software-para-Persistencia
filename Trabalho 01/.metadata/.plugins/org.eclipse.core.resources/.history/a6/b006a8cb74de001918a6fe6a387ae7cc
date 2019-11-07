@@ -1,0 +1,17 @@
+package model;
+
+public class porte {
+	private String porte;
+	
+	public porte(String porte) {
+		this.porte = porte;
+	}
+	
+	public String getPorte() {
+		return this.porte;
+	}
+	
+	public void setPorte(String porte) {
+		this.porte = porte;
+	}
+}

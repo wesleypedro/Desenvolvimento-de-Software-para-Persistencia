@@ -1,0 +1,1019 @@
+[ {
+  "idlicenca" : "01.09.01.000001-4",
+  "assunto" : {
+    "codigoAssunto" : "4",
+    "descricaoAssunto" : "AUTORIZAÇÃO",
+    "siglaAssunto" : "AUT"
+  },
+  "idProcesso" : "000064/2009",
+  "data_cadastro" : "2009-01-15",
+  "idempreendimento" : "5466",
+  "idEmpreendedor" : "12945",
+  "endereco" : "Rodovia PE 60 km 10",
+  "cep" : "50000000",
+  "numero" : "sn",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2602902",
+    "nome_municipio" : "Cabo de Santo Agostinho"
+  },
+  "validade_licenca" : "2010-01-15",
+  "subtipologia" : {
+    "idSituacao" : "382",
+    "codigo_subclasse" : "10.2.1.1.1",
+    "desc_classe" : "PORTOS"
+  },
+  "codigoclasse" : "1340",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "Estadual"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Estadual"
+    }
+  },
+  "emissao_licenca" : "2009-01-15",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "B15Q10a",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O empreendimento enquadra-se na Tipologia Central de Resíduos, Códigos 2.3.6.2.2/3.3.6.2.2 e 6.2 do Decreto Estadual nº. 28.787/05, cuja atividade principal consiste na triagem dos resíduos sólidos classes IIA e classe IIB do Complexo Industrial Portuário de Suape.",
+  "observacao" : "O empreendedor é responsável civil, penal e administrativo pelos danos causados à vida, à saúde e ao meio ambiente ou pelo uso inadequado que vier a fazer parte da presente atividade.",
+  "despacho" : "1. Executar serviços de disposição de material areno-argiloso no Bota Fora, correspondente às informações contidas na planta apresentada  pela Empresa Suape, denominada Localização da área para Bota Fora, na escala. 1:2.000, com volume máximo de 755.502,00 m3, ficando proibida a expansão dessa área sem a prévia autorização da CPRH.2. Adotar solução técnica, no sentido de permitir a drenagem adequada das águas superficiais na área do Bota Fora 3. A vegetação nativa é protegida por lei e só poderá ser suprimida/retirada/cortada mediante licenciamento ambiental específico da CPRH4. Na área do Bota Fora só será permitida a disposição de matrrial argilo-arenoso proveniente da atividade de terraplenagem da pavimentação da área onde será instalada a Refinaria Abreu e Lima5. Requerer a CPRH, no prazo de 15 dias, o Informativo de Corte (Formulário Próprio), para a retirada/corte/supressão de espécies frutíferas e exóticas existentes na área, caso necessário6. Apresentar e executar o Plano de Controle e de Monitoramento Ambiental aprovado pela CPRH7. Se em função dos resultados obtidos na execução do Plano de Controle e o Monitoramento Ambiental, houver alguma modificação significativa não prevista das condições ambientais, deverá ser realizada uma nova avaliação dos resultados e medidas corretivas e/ou até a realização de um novo monitoramento por um período mínimo de 3 (três) meses8. Ao final do Monitoramento Ambiental deverá ser apresentado à CPRH o relatório final e conclusivo, com análises, interpretações, conclusões e recomendações obtidas através dos dados levantados.9. A presente Autorização Ambiental está sendo concedida com base nas informações apresentada pelo interessado e não dispensa nem substitui alvarás ou certidões de qualquer natureza exigidas pela legislação federal, estadual e municipal em vigor.10. Caso venham existir reclamações da população vizinha, em relação ao problema de poluição ambiental causados pelo empreendedor, este deverá tomar medidas no sentido de solucioná-las, em caráter de urgência e de acordo com a legislação ambiental.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "A atividade consistirá na Autorização Ambiental para serviços de terraplanagem com volume de 755.502,00 localizado nas proximidades da Margem do  \"novo acesso a  ZIP\" na Zona Industrial Portuária de Suape, Ipojuca/PE.",
+  "razao_Social" : "SUAPE - COMPLEXO INDUSTRIAL PORTUÁRIO GOVERNADOR",
+  "cnpj_CPF" : "11448933000162",
+  "inscricao_estadual" : "-",
+  "bairro" : "Engenho Massangana",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.01.000007-6",
+  "assunto" : {
+    "codigoAssunto" : "2",
+    "descricaoAssunto" : "LICENÇA PRÉVIA",
+    "siglaAssunto" : "LP"
+  },
+  "idProcesso" : "000100/2009",
+  "data_cadastro" : "2009-01-20",
+  "idempreendimento" : "2113",
+  "idEmpreendedor" : "117",
+  "endereco" : "Praça Senador Teotônio Vilela",
+  "cep" : "55004901",
+  "numero" : "S/N",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2604106",
+    "nome_municipio" : "Caruaru"
+  },
+  "validade_licenca" : "2010-01-20",
+  "subtipologia" : {
+    "idSituacao" : "318",
+    "codigo_subclasse" : "5.1.1.1.1",
+    "desc_classe" : "EDIFICAÇÕES UNI OU PLURIFAMILIARES"
+  },
+  "codigoclasse" : "1043",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 500 a 699 wc's"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Rede coletora pública"
+    }
+  },
+  "emissao_licenca" : "2009-01-20",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "H20L10f",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O empreendimento enquadra-se na Tipologia de Transporte, Tratamento e Disposição de Resíduos, códigos 3.3.2.5 e 7.5, do Decreto Estadual nº 28.787/05, cuja atividade consiste na operação de um aterro sanitário mecanizado para resíduos Classes II-A e II-B, de acordo com a NBR 10.004/2004, localizado à BR-104, Sítio Juriti, Município de Caruaru/PE.",
+  "observacao" : "A presente licença não autoriza o início da obra, sendo necessária, para tanto, a liberação da Licença de Instalação (2º etapa do processo de licenciamento ambiental).",
+  "despacho" : "1. Apresentar o projeto do parcelamento aprovado pela prefeitura de Caruaru, juntamente com a ART do projetista e responsável técnico2. Apresentar o projeto de parcelamento atendendo ao código florestal lei federal nº 4771/653. Apresentar o documento de titulariedade registrado no catório de imoveis4. Apresentar um memorial descritivo da área5. Apresentar o projeto de abastecimento de água aprovado pela Compesa6. Apresentar o projeto de parcelamento atendendo a lei nº 676/79 de 19/12/79.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "PREFEITURA MUNICIPAL DE CARUARU",
+  "cnpj_CPF" : "10091536000113",
+  "inscricao_estadual" : "-",
+  "bairro" : "Centro",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000010-3",
+  "assunto" : {
+    "codigoAssunto" : "4",
+    "descricaoAssunto" : "AUTORIZAÇÃO",
+    "siglaAssunto" : "AUT"
+  },
+  "idProcesso" : "000495/2009",
+  "data_cadastro" : "2009-02-06",
+  "idempreendimento" : "11399",
+  "idEmpreendedor" : "11661",
+  "endereco" : "RUA RIBEIRO DE BRITO, SALA 104 EMPRESARIAL 1111",
+  "cep" : "51021310",
+  "numero" : "1111",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-06",
+  "subtipologia" : {
+    "idSituacao" : "408",
+    "codigo_subclasse" : "1.10.1.1.1",
+    "desc_classe" : "PESQUISAS AMBIENTAIS"
+  },
+  "codigoclasse" : "1471",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "PESQUISAS AMBIENTAIS"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "PESQUISAS AMBIENTAIS"
+    }
+  },
+  "emissao_licenca" : "2009-02-06",
+  "situacao" : {
+    "idSituacao" : "11",
+    "situacao" : "Licença Emitida"
+  },
+  "cd_seg" : "K06O10S",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O Projeto enquadra-se na Tipologia de Autorizações, Código 4.10 do Decreto Estadual 28787/05.",
+  "observacao" : "O não atendimento das exigências e prazos implicará na perda de validade da presente Autorização, sob pena das sanções previstas na Legislação Ambiental vigente.",
+  "despacho" : "1. Cumprir as diretrizes do Plano de Manejo da Área de Proteção Ambiental de Fernando de Noronha – APA/FN, aprovado e publicado no Diário Oficial da União em 06/06/2005 2. A vegetação nativa é protegida por Lei Federal n.º 4 771/65 e não poderá ser retirada sem autorização do IBAMA e CPRH3. Não será permitida nenhuma movimentação de terra ou serviços de terraplanagem, sem que haja prévio licenciamento desta CPRH4. Garantir sempre o livre e franco acesso às praias e ao mar, em qualquer direção e sentido, conforme estabelecido na Lei Federal n.º 7661/88, regulamentada pelo Decreto Federal n.º  5.300/045. Os banheiros químicos deverão ser instalados no local determinado pela COMPESA 6. Fica terminantemente proibido o lançamento, no solo e nos corpos de água, de quaisquer efluentes líquidos principalmente efluentes domésticos e “águas servidas” ou de qualquer outra natureza, sem que os mesmos tenham tratamento adequado, em consonância com a legislação vigente e prévio licenciamento da CPRH7. Caso os banheiros venham a receber produtos estabilizadores dos dejetos, a COMPESA deverá ser informada, para prévia autorização desses produtos8. A Federação Pernambucana de Surf, produtora do evento, se responsabilizará:8.1. Pela coleta dos resíduos sólidos (lixo) na praia, após cada dia do evento8.2. Pelo pagamento dos serviços prestados pela COMPESA8.3. Pela limpeza dos banheiros após cada dia do evento8.4. Pelo desmonte de toda a estrutura após o último dia do evento e pelo transporte para o continente imediatamente9. Cumprir todas as normas e condições estabelecidas na Permissão de Uso emitida pela Gerência Regional do Patrimônio da União - GRPU, através do Ofício n.º 068/SEPRE/GRPU/PE, datado de 21 de janeiro de 2009 10. Cumprir todas as diretrizes, normas e condições estabelecidas pelo Instituto Chico Mendes/ Parque Nacional Marinho Fernando de Noronha, através da Autorização PARNAMAR FN n.º 002/2009, datada de 29 de janeiro de 200911. Cumprir todas as diretrizes, normas e condições estabelecidas pelo Instituto Chico Mendes / Parque Nacional Marinho Fernando de Noronha, através do Ofício PARNAMAR FN n.º 018, datado de 22 de janeiro de 200912. A concessão da presente autorização não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente 13. A emissão de sons e ruídos, em decorrência das atividades, deverá obedecer, no interesse  da saúde e do sossego público, aos padrões, critérios e diretrizes estabelecidas pela legislação vigente14. A presente autorização está sendo concedida com base nas informações apresentadas pelo interessado, e não dispensa nem substitui quaisquer alvarás ou certidões de qualquer natureza exigidas pela legislação Federal e Estadual15. Caso venham existir reclamações da população do entorno, em relação ao problema de  poluição ambiental causados pelo empreendedor, este deverá tomar medidas no sentido de  solucioná-las, em caráter de urgência e de acordo com a legislação ambiental16. O empreendedor é responsável civil, penal e administrativamente pelos danos causados a vida, a saúde, ao meio ambiente e pelo uso inadequado que vier a fazer parte da presente atividade.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "O objetivo consistirão na realização do evento\"Hang Loose Pro-Contest 2009\" / Etapa Mundial de Surf Profissional, no período entre 08 a 17 de fevereiro de 2009, a ser realizado na Praia da Cacimba do Padre, Arquipélago de Fernando de Noronha/PE.",
+  "razao_Social" : "ANS - ASSOCIAÇÃO NORDESTINA DE SURF",
+  "cnpj_CPF" : "08573803000147",
+  "inscricao_estadual" : "-",
+  "bairro" : "BOA VIAGEM",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000015-8",
+  "assunto" : {
+    "codigoAssunto" : "8",
+    "descricaoAssunto" : "PRORROGAÇÃO DA LICENÇA DE INSTALAÇÃO",
+    "siglaAssunto" : "PLI"
+  },
+  "idProcesso" : "000114/2009",
+  "data_cadastro" : "2009-02-10",
+  "idempreendimento" : "4720",
+  "idEmpreendedor" : "12700",
+  "endereco" : "Rodovia PE-035",
+  "cep" : "50000000",
+  "numero" : "-",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2606804",
+    "nome_municipio" : "Igarassu"
+  },
+  "validade_licenca" : "2010-02-10",
+  "subtipologia" : {
+    "idSituacao" : "327",
+    "codigo_subclasse" : "7.1.1.1.1",
+    "desc_classe" : "RODOVIAS E ESTRADAS"
+  },
+  "codigoclasse" : "1087",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 20 km"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "até 20 km"
+    }
+  },
+  "emissao_licenca" : "2009-02-10",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "P10S10W",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos Viários, Código 3.7.1.1 do Decreto Estadual nº 28.787/05, cuja atividade consistirá na implantação do Projeto Executivo de Engenharia para pavimentação da Rodovia, com 6,00km de extensão, com início em Pontas de Pedra e seu final em Barra de Catuama, município de Goiana/PE.",
+  "observacao" : "1. O não atendimento das exigências e prazos implicará na perda de validade da presente Licença de Instalação, sendo obrigatória a solicitação da licença de operação na fase de conclusão da obra, sob pena das sanções previstas na legislação ambiental vigente2. O empreendedor é responsável civil, penal e administrativamente, pelos danos causados à vida, à saúde, ao meio ambiente e pelo uso inadequado que vier a fazer parte da presente atividade3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Deverão ser mantidos em boas condições, os acessos às residências2. O projeto de sinalização deverá ser elaborado de forma que esteja em consonância com as diversas atividades presentes, além de atender a dois princípios gerais:2.1 - o máximo de segurança para os veículos, pedestres e trabalhadores2.2 - o mínimo de inconveniência para o público3. Manter sempre úmidos os caminhos e desvios, de modo a se evitar o levantamento de poeira4. A destinação do material bota-fora deverá ser feita em local apropriado, de forma a nãobloquear a drenagem natural do terreno e sem causar prejuízos aos ecossistemas existentes e danos à sua circunvizinhança5. A vegetação nativa é protegida por Lei Federal nº 4.771/65 e não poderá ser retirada sem a prévia autorização da CPRH e IBAMA6. Fica terminantemente proibido vedar, aterrar ou impedir, de alguma forma, a passagem natural das águas dos drenos naturais termitentes ou intermitentes na área da propriedade.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "SECRETARIA DE TURISMO DE PERNAMBUCO SETUR - PE",
+  "cnpj_CPF" : "08113327000181",
+  "inscricao_estadual" : "-",
+  "bairro" : "trecho: Igarassu/Itamaracá",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000016-5",
+  "assunto" : {
+    "codigoAssunto" : "5",
+    "descricaoAssunto" : "RENOVAÇÃO DA LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "RLO"
+  },
+  "idProcesso" : "000006/2009",
+  "data_cadastro" : "2009-02-17",
+  "idempreendimento" : "5",
+  "idEmpreendedor" : "10399",
+  "endereco" : "Avenida Fernandes Vieira",
+  "cep" : "54360020",
+  "numero" : "140",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2607901",
+    "nome_municipio" : "Jaboatão dos Guararapes"
+  },
+  "validade_licenca" : "2011-02-17",
+  "subtipologia" : {
+    "idSituacao" : "317",
+    "codigo_subclasse" : "4.3.1.1.1",
+    "desc_classe" : "LIMPADORAS E TANQUES SÉPTICOS (FOSSAS)"
+  },
+  "codigoclasse" : "1003",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 5 caminhões"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "até 5 caminhões"
+    }
+  },
+  "emissao_licenca" : "2009-02-17",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "Q17R11e",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Transporte, Tratamento e Disposição de Resíduos, código 3.4.3.1, do Decreto Estadual n 28.787/05, cuja atividade consiste na coleta, transporte e disposição de lodo biológico, proveniente da limpeza de fossas sépticas, resíduos Classe II-A e locação de banheiros químicos.Os veículos licenciados para esta atividade têm as seguintes placas: KGG 0453 e KKN 4097.",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Os veículos transportadores deverão dispor de reservatórios com estanqueidade total, não sendo permitido qualquer vazamento durante o percurso2. Os veículos envolvidos nos transporte deverão conduzir uma cópia desta licença de operação, para apresentação, quando solicitado pelas autoridades competentes3. A empresa fica obrigada a enviar à CPRH, até o 10º (décimo) dia de cada mês, o relatório das atividades exercidas no mês anterior, em conformidade com modelo estabelecido na licença de operação nº 0697/054. A presente licença de operação refere-se apenas aos serviços de limpeza de fossas sépticas. Para transporte de quaisquer outros tipos de resíduos, é indispensável a prévia autorização da CPRH5. Qualquer alteração da frota de veículos que implique em substituição ou incremento deverá ser comunicada à CPRH, para as devidas ações de controle6. O descarte dos resíduos de limpeza de fossas deverá ser realizado, obrigatoriamente, na estação de tratamento de esgotos (ETE) do Janga e na estação de tratamento do TIP7. O tanque do veículo deverá ser lavado na área da ETE8. O emprendedor tem um prazo de 60(sessenta)dias para apresentar o alvara de funcionamento da prefeitura, atualizado.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "LIMPA FOSSAS METROPOLITANA LTDA ME",
+  "cnpj_CPF" : "04511784000173",
+  "inscricao_estadual" : "90661362434",
+  "bairro" : "Marcos Freire",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000017-2",
+  "assunto" : {
+    "codigoAssunto" : "3",
+    "descricaoAssunto" : "LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "LO"
+  },
+  "idProcesso" : "000640/2009",
+  "data_cadastro" : "2009-02-12",
+  "idempreendimento" : "6",
+  "idEmpreendedor" : "8703",
+  "endereco" : "Estrada do Arraial",
+  "cep" : "52051380",
+  "numero" : "2543",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-12",
+  "subtipologia" : {
+    "idSituacao" : "307",
+    "codigo_subclasse" : "2.1.1.1.1",
+    "desc_classe" : "EMPREENDIMENTO DE EXTRAÇÃO E PESQUISA DE AREIA DE RIO, SOLO E BARRO"
+  },
+  "codigoclasse" : "919",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 10 ha"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "até 1.000 m³"
+    }
+  },
+  "emissao_licenca" : "2009-02-12",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "R12M10Y",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos de Extração Mineral, código 3.2.1.1.4 do Decreto Estadual 28.787/05, cuja atividade consiste na exploração de barro a céu aberto, com volume médio mensal de 60.000m³, em área de 0,96ha, localizada no Lote 7, Sítio da Prainha, Praia dos Carneiros, município de Tamandaré/PE.",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento4. O empreendedor é responsável civil, penal e administrativamente, pelos danos causados à vida, à saúde, ao meio ambiente e pelo uso inadequado que vier a fazer parte da presente atividade.",
+  "despacho" : "1. A extração mineral deverá ser conduzida de acordo com as diretrizes apresentadas no Plano de Controle Ambiental - PCA e Plano de Recuperação de Área Degradada - PRAD, além das demais normas da mineração e meio ambiente, como a Norma Regulamentadora de Mineração %u2013 NRM2. Apresentar, semestralmente, o Relatório de Controle Ambiental %u2013 RCA, descrevendo as medidas de controle ambiental e de recuperação da área degradada adotadas no período, conforme o PCA e PRAD apresentados no projeto original3. Manter o afastamento de 30 (trinta) metros referente à faixa de domínio das estradas e rodovias4. Implantar placas sinalizadoras de advertência, de modo a se obter o máximo de segurança para os veículos, pedestres e trabalhadores e o mínimo de inconveniência para o público5. Retirar a cobertura vegetal apenas nos locais de lavra imediata, evitando-se assim, a exposição da terra a ação do sol e da chuva6. Manter o talude das bancadas com ângulo de 45º7. Realizar o transporte da argila em veículo adequado, com recobrimento pleno da carga8. Obedecer às diretrizes do Informativo de Corte, objeto do processo Nº 01010/2009 da CPRH9. Apresentar ao final da exploração da jazida, o Relatório Ambiental descrevendo as medidas de encerramento da atividade, as quais devem ser suficientes para deixar o terreno em condições estáveis de topografia, drenagem e aspecto visual adequado10. O solo de natureza orgânica, resultante do decapeamento da jazida, deverá ser armazenado de forma adequada para posterior uso nos trabalhos de recuperação da área minerada11. A CPRH reserva-se o direito de exigir a adoção de outras medidas corretivas, caso julgue necessárias, com vistas a adequar a atividade à realidade ambiental vigente12. Não comprometer, em nenhum aspecto, propriedades e/ou equipamentos do bem público13. A licença expedida perderá a validade se violadas quaisquer das condições estabelecidas,bem como mudanças das características do projeto original apresentado à CPRH e/ou substancial dano ao meio ambiente14. A vegetação arbustiva existente na área só poderá ser retirada/cortada/suprimida após a emissão da autorização específica da CPRH15. A presente licença está sendo concedida com base nas informações apresentadas pelo interessado, e não dispensa nem substitui quaisquer alvarás ou certidões de qualquer natureza exigidas pela legislação Federal, Estadual e Municipal16. Os taludes devem ser desenvolvidos de forma a se manterem estáveis, com cortes e terraceamento adequados à sua estabilidade, e a fixação com a revegetação com espécies apropriadas.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "METAMBIENTE BRASIL EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+  "cnpj_CPF" : "08024436000122",
+  "inscricao_estadual" : "-",
+  "bairro" : "Tamarineira",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000018-9",
+  "assunto" : {
+    "codigoAssunto" : "4",
+    "descricaoAssunto" : "AUTORIZAÇÃO",
+    "siglaAssunto" : "AUT"
+  },
+  "idProcesso" : "000048/2009",
+  "data_cadastro" : "2009-02-13",
+  "idempreendimento" : "11455",
+  "idEmpreendedor" : "10400",
+  "endereco" : "RUA CARLOS RIBEIRO FILHO",
+  "cep" : "58320000",
+  "numero" : "-",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-13",
+  "subtipologia" : {
+    "idSituacao" : "399",
+    "codigo_subclasse" : "1.1.1.1.1",
+    "desc_classe" : "TRANSPORTE DE SUBSTÂNCIA E RESIDUOS PERIGOSOS"
+  },
+  "codigoclasse" : "1462",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 20 ton/dia"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "até 20 ton/dia"
+    }
+  },
+  "emissao_licenca" : "2009-04-17",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "S13R10Z",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Transporte de Substâncias e Resíduos Perigosos código 4.1.1, do Decreto Estadual nº 28.787/05. ",
+  "observacao" : "O não atendimento das exigências e prazos implicará na perda de validade da presente Autorização, sob pena das sanções previstas na Legislação Ambiental vigente.",
+  "despacho" : "1. A empresa deverá manter atualizado o curso MOPP dos condutores dos veículos 2. Deverá ser comunicada, de imediato ao órgão ambiental, quaisquer ocorrências que venha a causar danos ao meio ambiente 3. O transporte dos produtos deverá obedecer a Resolução nº420 de 2004 da ANTT, do Ministério dos Transportes.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "Realizar o transporte 2t de estopas, filtros, carenagem e embalagens contaminadas com óleo lubrificante acondicionados em bombonas plásticas e lâmpadas fluorescente usadas. Estes resíduos serão coletados de postos de abastecimento localizados no Estado de Pernambuco e transportados tendo como destino final a empresa CINAL no Estado de Alagoas/PE.",
+  "razao_Social" : "HG RECICLAGEM DE MATERIAIS INDUSTRIAIS LTDA.",
+  "cnpj_CPF" : "09544234000174",
+  "inscricao_estadual" : "-",
+  "bairro" : "CENTRO - ALHANDRA - PB",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000019-6",
+  "assunto" : {
+    "codigoAssunto" : "5",
+    "descricaoAssunto" : "RENOVAÇÃO DA LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "RLO"
+  },
+  "idProcesso" : "000439/2009",
+  "data_cadastro" : "2009-02-17",
+  "idempreendimento" : "8",
+  "idEmpreendedor" : "3646",
+  "endereco" : "Estrada dos Remédios",
+  "cep" : "50770120",
+  "numero" : "879",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-17",
+  "subtipologia" : {
+    "idSituacao" : "280",
+    "codigo_subclasse" : "6.1.50.50-4",
+    "desc_classe" : "COMÉRCIO A VAREJO DE COMBUSTÍVEIS"
+  },
+  "codigoclasse" : "0",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "Pequeno (área útil até 3.000m²)"
+    }
+  },
+  "enquadramento_potencial" : null,
+  "emissao_licenca" : "2009-02-17",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "T17P10d",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Empreendimentos Comerciais e de Serviços, códigos 3.6.1.1.2 e 7.5 do Decreto Estadual nº 28.787/05, com atividade no comércio varejista de combustíveis e óleos lubrificantes automotores. ",
+  "observacao" : "A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente.",
+  "despacho" : "1. Deverão ser realizadas manutenção e limpeza no sistema final de esgotamento sanitário, a cada 300 (trezentos) dias, por empresa devidamente licenciada ambientalmente2. A empresa deverá, no prazo de 30 (trinta) dias, construir sistema separador de água/óleo3. A coleta e transporte de óleo usado e resíduos oleosos, somente poderá ser realizada por empresa devidamente licenciada pelo órgão ambiental e credenciada pela ANP, enquanto estopas, filtros e embalagens contaminadas por óleo, deverão ser destinadas a aterro industrial ou incineradas por empresas licenciadas ambientalmente, por se tratarem de resíduos Classe I4. A empresa deverá, semestralmente, apresentar relatório contendo cópia dos certificados de coleta de óleo contaminado (usado), das empresas receptoras credenciadas pela ANP5. A empresa deverá obedecer a Instrução Normativa nº 05/2006, desta Agência.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "POSTO ELO LTDA",
+  "cnpj_CPF" : "03895826000154",
+  "inscricao_estadual" : "-",
+  "bairro" : "Afogados",
+  "resumo_consulta" : "-",
+  "resquisitos" : "1. A empresa deverá manter atualizado o Atestado de Regularidade do Corpo de Bombeiros2. A empresa só poderá realizar troca de tanques ou modificações no projeto do posto, mediante a licença da CPRH."
+}, {
+  "idlicenca" : "01.09.02.000022-6",
+  "assunto" : {
+    "codigoAssunto" : "4",
+    "descricaoAssunto" : "AUTORIZAÇÃO",
+    "siglaAssunto" : "AUT"
+  },
+  "idProcesso" : "000458/2009",
+  "data_cadastro" : "2009-02-17",
+  "idempreendimento" : "345",
+  "idEmpreendedor" : "147",
+  "endereco" : "Rod. BR 101 Sul, Antigo Traçado ",
+  "cep" : "54160594",
+  "numero" : "3219",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2607901",
+    "nome_municipio" : "Jaboatão dos Guararapes"
+  },
+  "validade_licenca" : "2010-02-17",
+  "subtipologia" : {
+    "idSituacao" : "399",
+    "codigo_subclasse" : "1.1.1.1.1",
+    "desc_classe" : "TRANSPORTE DE SUBSTÂNCIA E RESIDUOS PERIGOSOS"
+  },
+  "codigoclasse" : "1462",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 20 ton/dia"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "até 20 ton/dia"
+    }
+  },
+  "emissao_licenca" : "2009-02-17",
+  "situacao" : {
+    "idSituacao" : "3",
+    "situacao" : "Aditamento Não Emitido"
+  },
+  "cd_seg" : "W17D10d",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Fabricação de Tintas, Vernizes, Lacas e Produtos Afins, Códigos 3.1.1.3.3 e 7.5, do Decreto Estadual n° 28.787/05, cuja atividade consiste na fabricação de tinta á base de água, massas, texturas e resinas.",
+  "observacao" : "O não atendimento das exigências e prazos implicará na perda de validade da presente Autorização, sob pena das sanções previstas na Legislação Ambiental vigente.",
+  "despacho" : "1. O transporte dos produtos deverá obedecer a Resolução 420/2004, da ANT, do Ministério dos Transportes2. A empresa deverá manter atualizado o curso ‘MOPP” dos condutores dos veículos3. A empresa deverá comunicar a CPRH, de imediato, qualquer ocorrência que venha causar danos ambientais4. A empresa deverá encaminhar a CPRH, no prazo máximo de 30 (trinta) dias após o envio do resíduo, relatório técnico comprovando que a coleta, transporte e destino final foram realizados de acordo com as Normas Ambientais vigentes.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "Realizar o transporte de aproximadamente 750 m³/mês de água com vestígio de tinta, proveniente da lavagem de equipamentos do processo de produção, deste as suas instalações ate a CINAL - Companhia Alagoas Industrial, no Estado de Alagoas. O transporte será realizado pelas empresas Rodoquim Transportes Ltda e Transultra - Armazenamento e Transporte Especializado Ltda. ",
+  "razao_Social" : "BASF S/A",
+  "cnpj_CPF" : "48539407007554",
+  "inscricao_estadual" : "007480725",
+  "bairro" : "Prazeres",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000023-3",
+  "assunto" : {
+    "codigoAssunto" : "1",
+    "descricaoAssunto" : "LICENÇA DE INSTALAÇÃO",
+    "siglaAssunto" : "LI"
+  },
+  "idProcesso" : "000919/2009",
+  "data_cadastro" : "2009-02-16",
+  "idempreendimento" : "11456",
+  "idEmpreendedor" : "10401",
+  "endereco" : "AV. BRASIL",
+  "cep" : "53150470",
+  "numero" : "489",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2609600",
+    "nome_municipio" : "Olinda"
+  },
+  "validade_licenca" : "2010-02-17",
+  "subtipologia" : {
+    "idSituacao" : "280",
+    "codigo_subclasse" : "6.1.50.50-4",
+    "desc_classe" : "COMÉRCIO A VAREJO DE COMBUSTÍVEIS"
+  },
+  "codigoclasse" : "5",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "Pequeno (área útil até 3.000m²)"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Médio"
+    }
+  },
+  "emissao_licenca" : "2009-02-17",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "X17Q10d",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia Comerciais e Serviços, código 2.6.1.1.2 do Decreto Estadual 28.787/05, com atividade no comercio varejista de combustíveis e óleos lubrificantes. O objetivo dessa Licença de Instalação é a retirada de 05 (cinco) tanques de armazenamento subterrâneo de combustíveis, com capacidade de 15.000 litros cada, de aço carbono, ABNT - NB 190 e a instalação de 02 (dois) tanques com capacidade de 30.000 litros, tri compartimentado (10.000+10.000+10.000), de aço carbono de parede dupla não metálica (jaquetado), ABNT - NBR 13785. O serviço será realizado pela empresa Qualimec Construções Ltda.",
+  "observacao" : "1. O não atendimento das exigências e prazos implicará na perda de validade da presente Licença de Instalação. E sendo obrigatória a solicitação da licença de operação na fase de conclusão da obra, sob pena das sanções previstas na legislação ambiental vigente2. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Na execução do sistema de abastecimento de combustíveis o serviço deverá obedecer às normas da ABNT:1.1 - NBR nº13.781-Manuseio e instalação de tanques subterrâneo  de combustíveiseueueueueueueueu1.2 - NBR nº13783-Instalação do sistema de armazenamento subterrâneo de combustíveis1.3 - NBR nº 14.605-Sistema de drenagem oleosa1.4 - NBR nº 14.639-Instalações elétricas1.5 - NBR nº 14.606-Entrada em espaço confinado  2. Obedecer a Instrução Normativa nº 05/2006, dessa CPRH3. Deverá ser comunicada, de imediato a CPRH, qualquer ocorrência que venha causar danos ambientais.  ",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "AM COMÉRCIO DE COMBUSTÍVEIS LTDA",
+  "cnpj_CPF" : "09467066000160",
+  "inscricao_estadual" : "-",
+  "bairro" : "RIO DOCE",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000026-4",
+  "assunto" : {
+    "codigoAssunto" : "5",
+    "descricaoAssunto" : "RENOVAÇÃO DA LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "RLO"
+  },
+  "idProcesso" : "000756/2009",
+  "data_cadastro" : "2009-02-16",
+  "idempreendimento" : "11",
+  "idEmpreendedor" : "600",
+  "endereco" : "Rua Imperial",
+  "cep" : "50090000",
+  "numero" : "2260",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2011-02-26",
+  "subtipologia" : {
+    "idSituacao" : "374",
+    "codigo_subclasse" : "9.7.1.1.1",
+    "desc_classe" : "ARMAZENAMENTO, MANUSEIO E ENVASE DE PRODUTOS DERIVADOS DE PETRÓLEO (ÓLEO LUBRIFICANTE, SOLVENTES, QUEROSENE E SIMILARES"
+  },
+  "codigoclasse" : "1333",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 1920 botijões *Botijões cheios, parcialmente utilizados ou vazios."
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Classe IV - 573,75 m²"
+    }
+  },
+  "emissao_licenca" : "2009-02-26",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "a26M11n",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Empreendimentos Comerciais e de Serviços, códigos 3.9.7.4 e 7.7 do Decreto Estadual nº 28.787/05, com atividade na revenda de gás liquefeito de petróleo (GLP), com capacidade para armazenar 1.920 (mil novecentos e vinte) botijões de 13kg. ",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Deverão ser realizadas manutenção e limpeza no sistema final de esgotamento sanitário, a cada 300 (trezentos) dias, por empresa devidamente licenciada ambientalmente2. A empresa deverá obedecer a Portaria nº 27 do MME/DNC, de 16/09/96, quanto aos limites de propriedade, segurança e armazenagem de botijões de gás3. A empresa deverá, dentro de um prazo de 30 (trinta) dias, apresentar Plano de Emergência para área de armazenamento de gás.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "SÉRGIO ANTÔNIO DA SILVA GÁS - ME",
+  "cnpj_CPF" : "03152598000122",
+  "inscricao_estadual" : "026007738",
+  "bairro" : "São José",
+  "resumo_consulta" : "-",
+  "resquisitos" : "A empresa deverá manter atualizado o Atestado de Regularidade do Corpo de Bombeiros."
+}, {
+  "idlicenca" : "01.09.02.000033-2",
+  "assunto" : {
+    "codigoAssunto" : "5",
+    "descricaoAssunto" : "RENOVAÇÃO DA LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "RLO"
+  },
+  "idProcesso" : "000750/2009",
+  "data_cadastro" : "2009-02-18",
+  "idempreendimento" : "13",
+  "idEmpreendedor" : "679",
+  "endereco" : "Av. Conde da Boa Vista",
+  "cep" : "50060003",
+  "numero" : "1377",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-18",
+  "subtipologia" : {
+    "idSituacao" : "280",
+    "codigo_subclasse" : "6.1.50.50-4",
+    "desc_classe" : "COMÉRCIO A VAREJO DE COMBUSTÍVEIS"
+  },
+  "codigoclasse" : "837",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "Pequeno (área útil até 3.000m²)"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Médio"
+    }
+  },
+  "emissao_licenca" : "2009-02-18",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "h18S10e",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Empreendimentos Comerciais e de Serviços, códigos 3.6.1.1.2 e 7.5, do Decreto Estadual nº 28.787/05, com atividade no comércio varejista de combustíveis e lubrificantes automotores e nos serviços de troca de óleo.",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Deverão ser realizadas manutenção e limpeza na drenagem da ilha de bombas com caixas separadoras de água/óleo2. A coleta e transporte de óleo usado e resíduos oleosos, somente poderá ser realizada por empresa devidamente licenciada pelo órgão ambiental e credenciada pela ANP, enquanto estopas, filtros e embalagens contaminadas por óleo, deverão ser destinadas a aterro industrial ou incineradas por empresas licenciadas ambientalmente, por se tratarem de resíduos Classe I3. A empresa deverá, semestralmente, apresentar relatório contendo cópia dos certificados de coleta de óleo contaminado (usado), das empresas receptoras credenciadas pela ANP4. A empresa deverá obedecer a Instrução Normativa nº 05/2006, desta Agência.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "RIBEIRO REVENDEDORA DE COMBUSTÍVEIS LTDA",
+  "cnpj_CPF" : "11315678000180",
+  "inscricao_estadual" : "1810010018037",
+  "bairro" : "Boa Vista",
+  "resumo_consulta" : "-",
+  "resquisitos" : "1. A empresa deverá manter atualizado o Atestado de Regularidade do Corpo de Bombeiros2. A empresa só poderá realizar troca de tanques ou modificações no projeto do posto, mediante a licença da CPRH."
+}, {
+  "idlicenca" : "01.09.02.000034-9",
+  "assunto" : {
+    "codigoAssunto" : "5",
+    "descricaoAssunto" : "RENOVAÇÃO DA LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "RLO"
+  },
+  "idProcesso" : "000084/2009",
+  "data_cadastro" : "2009-02-18",
+  "idempreendimento" : "14",
+  "idEmpreendedor" : "5905",
+  "endereco" : "AV. BARRAS",
+  "cep" : "54490064",
+  "numero" : "1605",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2607901",
+    "nome_municipio" : "Jaboatão dos Guararapes"
+  },
+  "validade_licenca" : "2010-02-19",
+  "subtipologia" : {
+    "idSituacao" : "377",
+    "codigo_subclasse" : "11.3.1.1.1",
+    "desc_classe" : "EXPLORAÇÃO DE ÁGUAS SUBTERRÂNEAS"
+  },
+  "codigoclasse" : "1445",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 5,1 a 20 m³/hora"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "de 5,1 a 20 m³/hora"
+    }
+  },
+  "emissao_licenca" : "2009-02-19",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "-",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos de Utilização de Recursos Hídricos, código 3.11.3.2 e 7.5, conforme Decreto Estadual nº. 28.787/05 que regulamenta a Lei Estadual 12.916/05, cuja atividade consiste na explotação de águas subterrâneas para comercialização de água. A captação é realizada no Aqüífero Cabo via poço tubular a uma profundidade de 122m (cento e vinte e dois metros). O poço está localizado no endereço acima sob Coordenadas Geográficas  08º13 25,0\" Sul e 34º56 54,7 Oeste, na Bacia Hidrográfica do Rio Jaboatão.",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Manter hidrômetro na tubulação de saída do poço, conforme prescrição do artigo 15 do Decreto 20.423/98 que regulamenta a Lei no 11.427/97 (Lei de Conservação e Proteção das Águas Subterrâneas do Estado)2. Realizar a manutenção do poço (artigo 59, do Decreto 20.423/98), com freqüência máxima de 02 (dois) anos3. Acatar e comprovar o Termo de Outorga de Uso da Água emitido pela Secretaria de Ciência, Tecnologia e Meio Ambiente ",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "L. BERNARD EMPREENDIMENTOS LTDA",
+  "cnpj_CPF" : "07290156000101",
+  "inscricao_estadual" : "032392257 ",
+  "bairro" : "BARRA DE JANGADA",
+  "resumo_consulta" : "-",
+  "resquisitos" : "A qualidade da água destinada ao consumo humano deverá atender aos padrões bacteriológicos e fisico-químicos de potabilidade de acordo com a Portaria 518/04,do Ministério da Saúde."
+}, {
+  "idlicenca" : "01.09.02.000035-6",
+  "assunto" : {
+    "codigoAssunto" : "1",
+    "descricaoAssunto" : "LICENÇA DE INSTALAÇÃO",
+    "siglaAssunto" : "LI"
+  },
+  "idProcesso" : "000014/2009",
+  "data_cadastro" : "2009-02-18",
+  "idempreendimento" : "565",
+  "idEmpreendedor" : "10404",
+  "endereco" : "Lote 05-A, Quadra B-19, Loteamento Nossa Senhora da Conceição",
+  "cep" : "000000000",
+  "numero" : "-",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2610707",
+    "nome_municipio" : "Paulista"
+  },
+  "validade_licenca" : "2013-02-20",
+  "subtipologia" : {
+    "idSituacao" : "318",
+    "codigo_subclasse" : "5.1.1.1.1",
+    "desc_classe" : "EDIFICAÇÕES UNI OU PLURIFAMILIARES"
+  },
+  "codigoclasse" : "1022",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 21 a 34 wc's"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Rede coletora pública"
+    }
+  },
+  "emissao_licenca" : "2009-02-20",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "j20o13j",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos Imobiliários, Código 3.5.1.5.2 do Decreto Estadual nº 28.787/05, cuja atividade consiste na LO PARCIAL de funcionamento dos Conjuntos Habitacionais de 01 a 04 com 16 (dezesseis) unidades, situados na Lote 05-A, Quadra B-19, Loteamento Nossa Senhora da Conceição, Paulista/PE. Os esgotos sanitários são conduzidos para um sistema composto por tanque séptico/valas de infiltração",
+  "observacao" : "1. O não atendimento das exigências e prazos implicará na perda de validade da presente Licença de Instalação, sendo obrigatória a solicitação da licença de operação na fase de conclusão da obra, sob pena das sanções previstas na legislação ambiental vigente2. O empreendedor é responsável civil, penal e administrativamente pelos danos causados à vida, à saúde, ao Meio Ambiente e pelo uso inadequado que vier a fazer parte da presente atividade3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento4. A referida licença fundamenta-se no traçado gráfico dos limites da propriedade apresentado, não implicando por parte da CPRH no reconhecimento da veracidade do levantamento, nem do direito de propriedade5. O projeto arquitetônico aprovado pela Prefeitura da Cidade do Paulista foi registrado sob o n° 122755 em 22/12/2008.",
+  "despacho" : "1. Deverá ter prévio licenciamento da CPRH qualquer modificação nos projetos aprovados através desta L.I2. O empreendedor deverá obter da Prefeitura Municipal a licença de construção 3. Fica o empreendedor responsável pela integridade física das edificações na área de influencia do empreendimento4. A instalação do canteiro de obras deve estar de acordo com a legislação vigente, especialmente no que diz respeito à proteção do meio ambiente5. A implantação da rede d%u2019água é de responsabilidade do empreendedor6. Caso venham existir reclamações da população vizinha em relação a problema de poluição Ambiental causados pelo empreendedor, este deverá tomar as medidas no sentido de solucioná-los em caráter de urgência, de acordo com a Legislação Ambiental 7. A emissão de sons e ruídos, em decorrência das diversas atividades previstas deverá obedecer aos padrões, critérios e diretrizes estabelecidas pela legislação vigente (resolução CONAMA n° 01/90, normas da ABNT: NBR n° 10151 e NBR n° 10152) 8. Em caso de acidentes, a empresa deverá tomar as medidas necessárias, a fim de evitar danos ambientais e informar imediatamente a CPRH 9. A presente Licença Ambiental deverá ser afixada em lugar visível no canteiro de obra, sob as penas da Lei.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "SERGIO EDUARDO SIMÕES",
+  "cnpj_CPF" : "17157170400",
+  "inscricao_estadual" : "-",
+  "bairro" : "Conceição",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000036-3",
+  "assunto" : {
+    "codigoAssunto" : "1",
+    "descricaoAssunto" : "LICENÇA DE INSTALAÇÃO",
+    "siglaAssunto" : "LI"
+  },
+  "idProcesso" : "000124/2009",
+  "data_cadastro" : "2009-02-19",
+  "idempreendimento" : "832",
+  "idEmpreendedor" : "10635",
+  "endereco" : "Bacias de Pequenos Rios Litorâneos",
+  "cep" : "50000000",
+  "numero" : "s/n",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2610707",
+    "nome_municipio" : "Paulista"
+  },
+  "validade_licenca" : "2010-02-20",
+  "subtipologia" : {
+    "idSituacao" : "379",
+    "codigo_subclasse" : "11.5.1.1.1",
+    "desc_classe" : "SISTEMAS DE DISTRIBUIÇÃO DE ÁGUAS"
+  },
+  "codigoclasse" : "6",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 50,1 a 250 m³/hora"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "de 50,1 a 250 m³/hora"
+    }
+  },
+  "emissao_licenca" : "2009-02-20",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "k20Q10g",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos de Utilização de Recursos Hídricos, código 3.11.4.5 e 7.5, conforme Decreto Estadual nº 28.787/05 que regulamenta a Lei Estadual nº 12.916/05, cuja atividade consiste de um sistema de abastecimento de água do município de Petrolina/PE,  a partir da captação no rio São Francisco, constituído de uma ETA de modo convencional,  sob  coordenadas geográficas 09º24 42\" Sul e 40º32 13\" Oeste.",
+  "observacao" : "1. O não atendimento das exigências e prazos implicará na perda de validade da presente Licença de Instalação, sendo obrigatória a solicitação da licença de operação na fase de conclusão da obra, sob pena das sanções previstas na legislação ambiental vigente 2. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. A presente Licença está sendo concedida com base nas informações apresentadas pelo interessado e não dispensa nem substitui quaisquer alvarás ou certidões de qualquer natureza exigidas pela Legislação Federal, Estadual ou Municipal2. O material de escavação e limpeza deverá ser colocado em local apropriado de forma a não bloquear a drenagem natural e sem causar prejuízos aos ecossistemas existentes3. Fica terminantemente proibido vedar, aterrar ou impedir de alguma forma a passagem natural das águas dos recursos naturais termitentes e intermitentes na área de implantação do empreendimento4. Deverão ser mantidos em boas condições os acessos às residências, cruzamentos e interseções de estradas e proceder a execução das obras de modo a não prejudicar o fluxo de tráfego5. A vegetação nativa é protegida por lei federal nº. 4771/65 e não poderá ser retirada sem autorização da CPRH6. Deverá ter prévio licenciamento da CPRH, qualquer modificação nos projetos aprovados através desta Licença de Instalação7. Quando da solicitação da renovação desta Licença de Instalação ou Licença de Operação, a COMPESA deverá apresentar o Termo de Outorga da ANA para a captação da água no Lago de Itaparica, conforme Registro da ANA n° 02501.000185/2009-83, sob pena de indeferimento do licenciamento ambiental8. Não comprometer em nenhum aspecto propriedade e/ou equipamentos de uso público ou privado9. A emissão de sons e ruídos em decorrência das diversas atividades previstas deverá obedecer aos padrões, critérios e diretrizes estabelecidos pela legislação vigente (Resoluções CONAMA e Normas da ABNT)10. Quanto à qualidade da água destinada ao consumo humano, esta deverá atender aos padrões bacteriológicos e físico-químicos de potabilidade estabelecidos pela Portaria 518/04 do Ministério da Saúde11. A COMPESA deverá assegurar o armazenamento temporário dos resíduos sólidos (lodo desidratado) da ETA para que sejam posteriormente transportados e dispostos em aterro industrial licenciado pela CPRH.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "COMPANHIA PERNAMBUCANA DE SANEAMENTO - COMPESA",
+  "cnpj_CPF" : "09769035000164",
+  "inscricao_estadual" : "32786034434",
+  "bairro" : " Vila Conceição",
+  "resumo_consulta" : "-",
+  "resquisitos" : "A obra deverá ser realizada de acordo com as normas da ABNT, sendo sua execução de inteira responsabilidade da empresa contratada pelo requerente, conforme CREA/ART Nº 01-0247048."
+}, {
+  "idlicenca" : "01.09.02.000037-0",
+  "assunto" : {
+    "codigoAssunto" : "3",
+    "descricaoAssunto" : "LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "LO"
+  },
+  "idProcesso" : "001241/2009",
+  "data_cadastro" : "2009-02-20",
+  "idempreendimento" : "17",
+  "idEmpreendedor" : "10405",
+  "endereco" : "RUA DO AMANHECER",
+  "cep" : "53190010",
+  "numero" : "53",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2609600",
+    "nome_municipio" : "Olinda"
+  },
+  "validade_licenca" : "2011-02-20",
+  "subtipologia" : {
+    "idSituacao" : "374",
+    "codigo_subclasse" : "9.7.1.1.1",
+    "desc_classe" : "ARMAZENAMENTO, MANUSEIO E ENVASE DE PRODUTOS DERIVADOS DE PETRÓLEO (ÓLEO LUBRIFICANTE, SOLVENTES, QUEROSENE E SIMILARES"
+  },
+  "codigoclasse" : "0",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "até 1920 botijões *Botijões cheios, parcialmente utilizados ou vazios."
+    }
+  },
+  "enquadramento_potencial" : null,
+  "emissao_licenca" : "2009-02-20",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "l20R11h",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Empreendimentos Comerciais e de Serviços, códigos 3.9.7.4 e 7.6 do Decreto Estadual nº 28.787/05, com atividade na revenda de gás liquefeito de petróleo (GLP), com capacidade para armazenar 1.920 (mil novecentos e vinte) botijões de 13kg. ",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Deverão ser realizadas manutenção e limpeza no sistema final de esgotamento sanitário, a cada 300 (trezentos) dias, por empresa devidamente licenciada ambientalmente2. A empresa deverá obedecer a Portaria nº 27 do MME/DNC, de 16/09/96, quanto aos limites de propriedade, segurança e armazenagem de botijões de gás3. A empresa deverá, dentro de um prazo de 30 (trinta) dias, apresentar Plano de Emergência para área de armazenamento de gás.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "M J GOMES",
+  "cnpj_CPF" : "10542353000177",
+  "inscricao_estadual" : "-",
+  "bairro" : "AGUAS COMPRIDAS",
+  "resumo_consulta" : "-",
+  "resquisitos" : "A empresa deverá manter atualizado o Atestado de Regularidade do Corpo de Bombeiros."
+}, {
+  "idlicenca" : "01.09.02.000038-7",
+  "assunto" : {
+    "codigoAssunto" : "2",
+    "descricaoAssunto" : "LICENÇA PRÉVIA",
+    "siglaAssunto" : "LP"
+  },
+  "idProcesso" : "000098/2009",
+  "data_cadastro" : "2009-02-20",
+  "idempreendimento" : "4720",
+  "idEmpreendedor" : "12700",
+  "endereco" : "Rodovia PE-035",
+  "cep" : "50000000",
+  "numero" : "-",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2606804",
+    "nome_municipio" : "Igarassu"
+  },
+  "validade_licenca" : "2010-02-20",
+  "subtipologia" : {
+    "idSituacao" : "318",
+    "codigo_subclasse" : "5.1.1.1.1",
+    "desc_classe" : "EDIFICAÇÕES UNI OU PLURIFAMILIARES"
+  },
+  "codigoclasse" : "1010",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 3 a 5 wc's"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Rede coletora pública"
+    }
+  },
+  "emissao_licenca" : "2009-02-20",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "m20S10g",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O projeto enquadra-se na Tipologia de Empreendimentos Viários, Código 3.7.1.1 do Decreto Estadual nº 28.787/05, cuja atividade consistirá na implantação do Projeto Executivo de Engenharia para pavimentação da Rodovia, com 6,00km de extensão, com início em Pontas de Pedra e seu final em Barra de Catuama, município de Goiana/PE.",
+  "observacao" : "1. A presente licença está sendo concedida com base nas informações apresentadas pelo interessado e não dispensa nem substitui quaisquer alvarás ou certidões de qualquer natureza exigidas pela Legislação Federal, Estadual ou Municipal2. A referida licença fundamenta-se no traçado gráfico dos limites da propriedade apresentado, não implicando por parte da CPRH no reconhecimento da veracidade do levantamento, nem do direito de propriedade3. O empreendedor é responsável civil, penal e administrativamente pelos danos causados a vida, a saúde, ao meio ambiente e pelo uso inadequado que vier a fazer parte da presente licença4. O não atendimento às exigências e prazos implicará na perda da validade da presença Licença Prévia - LP.",
+  "despacho" : "1. Documentos referentes à coleta e destinação dos resíduos sólidos2. As anotações de responsabilidade técnica-ART dos responsáveis técnicos pelos projetos propostos3. O material gráfico, devidamente assinado pelo proprietário e pelo responsável técnico4. Apresentar declaração da Celpe assegurando o fornecimento de energia elétrica5. Apresentar em 03 (três) vias do projeto executivo6. A destinação do material de bota-fora deverá ser feita em local apropriado e identificado em planta no memorial descritivo7. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença Prévia - LP8. Apresentar documento de propriedade, matrícula no Cartório de Registro de Imóveis, atualizados.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "SECRETARIA DE TURISMO DE PERNAMBUCO SETUR - PE",
+  "cnpj_CPF" : "08113327000181",
+  "inscricao_estadual" : "-",
+  "bairro" : "trecho: Igarassu/Itamaracá",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000039-4",
+  "assunto" : {
+    "codigoAssunto" : "3",
+    "descricaoAssunto" : "LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "LO"
+  },
+  "idProcesso" : "000548/2009",
+  "data_cadastro" : "2009-02-27",
+  "idempreendimento" : "25",
+  "idEmpreendedor" : "11487",
+  "endereco" : "Rua José Félix do Nascimento, Lote 08 (oito), Quadra “J”, Loteamento Gameleira II",
+  "cep" : "53000000",
+  "numero" : "-",
+  "complemento" : "Quadra BG",
+  "municipio" : {
+    "cod_ibge" : "2610707",
+    "nome_municipio" : "Paulista"
+  },
+  "validade_licenca" : "-",
+  "subtipologia" : {
+    "idSituacao" : "318",
+    "codigo_subclasse" : "5.1.1.1.1",
+    "desc_classe" : "EDIFICAÇÕES UNI OU PLURIFAMILIARES"
+  },
+  "codigoclasse" : "1010",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "de 3 a 5 wc's"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Rede coletora pública"
+    }
+  },
+  "emissao_licenca" : "2009-02-27",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "n27q09m",
+  "cod_cabure" : "-",
+  "caracterizacao" : "O empreendimento enquadra-se na Tipologia de Empreendimentos Imobiliários, código 3.5.1.2.2 do Decreto Estadual nº 28.787/05, cuja atividade consiste no funcionamento de 01 (uma) Habitação Unifamiliar em Conjunto (H2) com 04 (quatro) unidades, denominado Cond. Lua Cheia, situada no Loteamento Costa Rica, Lote 03, Quadra BG, Pau Amarelo - Paulista/PE. Os esgotos sanitários são conduzidos para um sistema composto por tanque séptico/sumidouro. ",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. Conforme disposto no Parágrafo 4°, do Artigo 5° da Lei Estadual n°12.916 de 08 de novembro de 2005, esta licença possui validade indeterminada.",
+  "despacho" : "1. Efetuar a remoção do lodo digerido do tanque séptico no intervalo de tempo máximo de 10 (dez) meses ou 300 (trezentos) dias2. A remoção do lodo deverá ser feita por caminhões denominados “limpa fossas” devidamente licenciados pela CPRH3. Inspecionar semestralmente os sumidouros. Observada a redução da capacidade de absorção dos sumidouros, novas unidades deverão ser construídas para recuperação da capacidade perdida4. Deverá ter prévio licenciamento da CPRH qualquer reforma nos cômodos servidos por instalação hidráulica e sanitária, bem como no sistema de esgotamento sanitário.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "Rodrigo Jorge Wanderley da Cunha",
+  "cnpj_CPF" : "96201703420",
+  "inscricao_estadual" : "4193208",
+  "bairro" : "Janga",
+  "resumo_consulta" : "-",
+  "resquisitos" : "-"
+}, {
+  "idlicenca" : "01.09.02.000040-0",
+  "assunto" : {
+    "codigoAssunto" : "3",
+    "descricaoAssunto" : "LICENÇA DE OPERAÇÃO",
+    "siglaAssunto" : "LO"
+  },
+  "idProcesso" : "000643/2009",
+  "data_cadastro" : "2009-02-27",
+  "idempreendimento" : "23",
+  "idEmpreendedor" : "6353",
+  "endereco" : "Av. Caxangá",
+  "cep" : "50.740-000",
+  "numero" : "5405",
+  "complemento" : "-",
+  "municipio" : {
+    "cod_ibge" : "2611606",
+    "nome_municipio" : "Recife"
+  },
+  "validade_licenca" : "2010-02-27",
+  "subtipologia" : {
+    "idSituacao" : "280",
+    "codigo_subclasse" : "6.1.50.50-4",
+    "desc_classe" : "COMÉRCIO A VAREJO DE COMBUSTÍVEIS"
+  },
+  "codigoclasse" : "837",
+  "enquadramento_porte" : {
+    "porte" : {
+      "desc_porte" : "Pequeno (área útil até 3.000m²)"
+    }
+  },
+  "enquadramento_potencial" : {
+    "potencial" : {
+      "desc_potenciall" : "Médio"
+    }
+  },
+  "emissao_licenca" : "2009-02-27",
+  "situacao" : {
+    "idSituacao" : "2",
+    "situacao" : "Licenciamento Resgatado"
+  },
+  "cd_seg" : "o27T10n",
+  "cod_cabure" : "-",
+  "caracterizacao" : "A empresa enquadra-se na Tipologia de Empreendimentos Comerciais e de Serviços, código 3.6.1.1.2 do Decreto Estadual nº 28.787/05, com atividade no comércio varejista de combustíveis e óleos lubrificantes automotores, na revenda de Gás Natural Veicular - GNV e nos serviços de troca de óleo e na lavagem de veículos. ",
+  "observacao" : "1. A concessão da presente licença não impedirá que a CPRH venha a exigir a adoção de medidas corretivas, desde que necessárias, de acordo com a legislação de controle ambiental vigente2. O não atendimento às exigências e prazos implicará na perda da validade da presente Licença de Operação - LO3. As licenças ambientais serão renovadas mediante requerimento protocolado perante a CPRH, até seu vencimento.",
+  "despacho" : "1. Deverão ser realizadas manutenção e limpeza:1.1 - no sistema final de esgotamento sanitário, a cada 300 (trezentos) dias, por empresa devidamente licenciada ambientalmente1.2 - na drenagem da ilha de bombas com caixas separadoras de água/óleo2. A empresa deverá no prazo de 30 (trinta) dias, redimensionar drenagem da coberta existente3. A coleta e transporte de óleo usado e resíduos oleosos, somente poderá ser realizada por empresa devidamente licenciada pelo órgão ambiental e credenciada pela ANP, enquanto estopas, filtros e embalagens contaminadas por óleo, deverão ser destinadas a aterro industrial ou incineradas por empresas licenciadas ambientalmente, por se tratarem de resíduos Classe I4. A empresa deverá, semestralmente, apresentar relatório contendo cópia dos certificados de coleta de óleo contaminado (usado), das empresas receptoras credenciadas pela ANP5. A empresa deverá obedecer a Instrução Normativa nº 05/2006, desta Agência.",
+  "objetivo_aut" : "-",
+  "observacao_aut" : "-",
+  "razao_Social" : "POSTO SOPHIA LTDA",
+  "cnpj_CPF" : "07594533000198",
+  "inscricao_estadual" : "033206503",
+  "bairro" : "Várzea",
+  "resumo_consulta" : "-",
+  "resquisitos" : "1. A empresa deverá manter atualizado o Atestado de Regularidade do Corpo de Bombeiros2. A empresa só poderá realizar troca de tanques ou modificações no projeto do posto, mediante a licença da CPRH."
+} ]

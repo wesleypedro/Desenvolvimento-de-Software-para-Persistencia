@@ -1,0 +1,263 @@
+package model;
+
+public class Licencas {
+	private String idlicenca;
+	private Assunto assunto;
+	private String idProcesso;
+	private String data_cadastro;
+	private String Razao_Social;
+	private String CNPJ_CPF;
+	private String idempreendimento;
+	private String idEmpreendedor;
+	private String Inscricao_estadual;
+	private String endereco;
+	private String cep;
+	private String numero;
+	private String Bairro;
+	private String complemento;
+	private Municipios municipio;
+	private String validade_licenca;
+	private Subtipologia_classe subtipologia;
+	private String codigoclasse;
+	private Enquadramento_porte enquadramento_porte;
+	private potencial enquadramento_potencial;
+	private String emissao_licenca;
+	private Situacao situacao;
+	private String cd_seg;
+	private String cod_cabure;
+	private String caracterizacao;
+	private String Resumo_consulta;
+	private String Resquisitos;
+	private String observacao;
+	private String despacho;
+	private String objetivo_aut;
+	private String observacao_aut;
+	
+	public Licencas() {}
+	
+	public Licencas(String idlicenca, Assunto assunto, String idProcesso, String data_cadastro, String razao_Social,
+			String cNPJ_CPF, String idempreendimento, String idEmpreendedor, String inscricao_estadual, String endereco,
+			String cep, String numero, String bairro, String complemento, Municipios municipio, String validade_licenca,
+			Subtipologia_classe subtipologia, String codigoclasse, Enquadramento_porte enquadramento_porte,
+			potencial enquadramento_potencial, String emissao_licenca, Situacao situacao, String cd_seg,
+			String cod_cabure, String caracterizacao, String remumo_consulta, String resquisitos, String observacao,
+			String despacho, String objetivo_aut, String observacao_aut) {
+		this.idlicenca = idlicenca;
+		this.assunto = assunto;
+		this.idProcesso = idProcesso;
+		this.data_cadastro = data_cadastro;
+		Razao_Social = razao_Social;
+		CNPJ_CPF = cNPJ_CPF;
+		this.idempreendimento = idempreendimento;
+		this.idEmpreendedor = idEmpreendedor;
+		Inscricao_estadual = inscricao_estadual;
+		this.endereco = endereco;
+		this.cep = cep;
+		this.numero = numero;
+		Bairro = bairro;
+		this.complemento = complemento;
+		this.municipio = municipio;
+		this.validade_licenca = validade_licenca;
+		this.subtipologia = subtipologia;
+		this.codigoclasse = codigoclasse;
+		this.enquadramento_porte = enquadramento_porte;
+		this.enquadramento_potencial = enquadramento_potencial;
+		this.emissao_licenca = emissao_licenca;
+		this.situacao = situacao;
+		this.cd_seg = cd_seg;
+		this.cod_cabure = cod_cabure;
+		this.caracterizacao = caracterizacao;
+		Resumo_consulta = remumo_consulta;
+		Resquisitos = resquisitos;
+		this.observacao = observacao;
+		this.despacho = despacho;
+		this.objetivo_aut = objetivo_aut;
+		this.observacao_aut = observacao_aut;
+	}
+	public String getIdlicenca() {
+		return idlicenca;
+	}
+	public void setIdlicenca(String idlicenca) {
+		this.idlicenca = idlicenca;
+	}
+	public Assunto getAssunto() {
+		return assunto;
+	}
+	public void setAssunto(Assunto assunto) {
+		this.assunto = assunto;
+	}
+	public String getIdProcesso() {
+		return idProcesso;
+	}
+	public void setIdProcesso(String idProcesso) {
+		this.idProcesso = idProcesso;
+	}
+	public String getData_cadastro() {
+		return data_cadastro;
+	}
+	public void setData_cadastro(String data_cadastro) {
+		this.data_cadastro = data_cadastro;
+	}
+	public String getRazao_Social() {
+		return Razao_Social;
+	}
+	public void setRazao_Social(String razao_Social) {
+		Razao_Social = razao_Social;
+	}
+	public String getCNPJ_CPF() {
+		return CNPJ_CPF;
+	}
+	public void setCNPJ_CPF(String cNPJ_CPF) {
+		CNPJ_CPF = cNPJ_CPF;
+	}
+	public String getIdempreendimento() {
+		return idempreendimento;
+	}
+	public void setIdempreendimento(String idempreendimento) {
+		this.idempreendimento = idempreendimento;
+	}
+	public String getIdEmpreendedor() {
+		return idEmpreendedor;
+	}
+	public void setIdEmpreendedor(String idEmpreendedor) {
+		this.idEmpreendedor = idEmpreendedor;
+	}
+	public String getInscricao_estadual() {
+		return Inscricao_estadual;
+	}
+	public void setInscricao_estadual(String inscricao_estadual) {
+		Inscricao_estadual = inscricao_estadual;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public String getCep() {
+		return cep;
+	}
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
+	public String getNumero() {
+		return numero;
+	}
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+	public String getBairro() {
+		return Bairro;
+	}
+	public void setBairro(String bairro) {
+		Bairro = bairro;
+	}
+	public String getComplemento() {
+		return complemento;
+	}
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+	public Municipios getMunicipio() {
+		return municipio;
+	}
+	public void setMunicipio(Municipios municipio) {
+		this.municipio = municipio;
+	}
+	public String getValidade_licenca() {
+		return validade_licenca;
+	}
+	public void setValidade_licenca(String validade_licenca) {
+		this.validade_licenca = validade_licenca;
+	}
+	public Subtipologia_classe getSubtipologia() {
+		return subtipologia;
+	}
+	public void setSubtipologia(Subtipologia_classe subtipologia) {
+		this.subtipologia = subtipologia;
+	}
+	public String getCodigoclasse() {
+		return codigoclasse;
+	}
+	public void setCodigoclasse(String codigoclasse) {
+		this.codigoclasse = codigoclasse;
+	}
+	public Enquadramento_porte getEnquadramento_porte() {
+		return enquadramento_porte;
+	}
+	public void setEnquadramento_porte(Enquadramento_porte enquadramento_porte) {
+		this.enquadramento_porte = enquadramento_porte;
+	}
+	public potencial getEnquadramento_potencial() {
+		return enquadramento_potencial;
+	}
+	public void setEnquadramento_potencial(potencial enquadramento_potencial) {
+		this.enquadramento_potencial = enquadramento_potencial;
+	}
+	public String getEmissao_licenca() {
+		return emissao_licenca;
+	}
+	public void setEmissao_licenca(String emissao_licenca) {
+		this.emissao_licenca = emissao_licenca;
+	}
+	public Situacao getSituacao() {
+		return situacao;
+	}
+	public void setSituacao(Situacao situacao) {
+		this.situacao = situacao;
+	}
+	public String getCd_seg() {
+		return cd_seg;
+	}
+	public void setCd_seg(String cd_seg) {
+		this.cd_seg = cd_seg;
+	}
+	public String getCod_cabure() {
+		return cod_cabure;
+	}
+	public void setCod_cabure(String cod_cabure) {
+		this.cod_cabure = cod_cabure;
+	}
+	public String getCaracterizacao() {
+		return caracterizacao;
+	}
+	public void setCaracterizacao(String caracterizacao) {
+		this.caracterizacao = caracterizacao;
+	}
+	public String getResumo_consulta() {
+		return Resumo_consulta;
+	}
+	public void setResumo_consulta(String remumo_consulta) {
+		Resumo_consulta = remumo_consulta;
+	}
+	public String getResquisitos() {
+		return Resquisitos;
+	}
+	public void setResquisitos(String resquisitos) {
+		Resquisitos = resquisitos;
+	}
+	public String getObservacao() {
+		return observacao;
+	}
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
+	}
+	public String getDespacho() {
+		return despacho;
+	}
+	public void setDespacho(String despacho) {
+		this.despacho = despacho;
+	}
+	public String getObjetivo_aut() {
+		return objetivo_aut;
+	}
+	public void setObjetivo_aut(String objetivo_aut) {
+		this.objetivo_aut = objetivo_aut;
+	}
+	public String getObservacao_aut() {
+		return observacao_aut;
+	}
+	public void setObservacao_aut(String observacao_aut) {
+		this.observacao_aut = observacao_aut;
+	}
+}

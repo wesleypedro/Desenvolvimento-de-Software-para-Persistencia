@@ -1,0 +1,347 @@
+package toXml;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.w3c.dom.Attr;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class ToXml {
+	private static final String CAMINHO_CSV = "/mnt/Data/UFC/2019.2 - DSP/Trabalho 01/dadosabertos/";
+	private static final String CAMINHO_XML = "/mnt/Data/UFC/2019.2 - DSP/Trabalho 01/Arquivos/XML/";
+	
+
+	static List<String[]> assunto_processo = readCSV("assunto_processo");
+	List<String[]> Documentacao_licenca_web = readCSV("Documentacao_licenca_web");
+	List<String[]> Documentacao_licenca_web_descricao = readCSV("Documentacao_licenca_web_descricao");
+	static List<String[]> empreendedor = readCSV("empreendedor");
+	static List<String[]> empreendimento = readCSV("empreendimento");
+	List<String[]> Endereco_pavimentacao = readCSV("Endereco_pavimentacao");
+	List<String[]> Endereco_praca = readCSV("Endereco_praca");
+	static List<String[]> Enquadramento_porte = readCSV("Enquadramento_porte");
+	static List<String[]> Enquadramento_potencial = readCSV("Enquadramento_potencial");
+	List<String[]> Exigencias_licenca_web = readCSV("Exigencias_licenca_web");
+	List<String[]> licenca_empreendedor = readCSV("licenca_empreendedor");
+	static List<String[]> Municipios = readCSV("Municipios");
+	static List<String[]> porte = readCSV("porte");
+	static List<String[]> potencial = readCSV("potencial");
+	List<String[]> processo = readCSV("processo");
+	static List<String[]> situacao_licenca = readCSV("situacao_licenca");
+	List<String[]> Solicitacao_licenca = readCSV("Solicitacao_licenca");
+	static List<String[]> Subtipologia_classe = readCSV("Subtipologia_classe");
+
+	static List<String> ligacoesLicenca = new ArrayList<>();
+	
+	public ToXml(){}
+	
+	public void executar() {
+		ligacoesLicenca.add("CodigoAssunto");
+//		ligacoesLicenca.add("idempreendimento");
+//		ligacoesLicenca.add("idEmpreendedor");
+		ligacoesLicenca.add("CodigoMunicipio");
+		ligacoesLicenca.add("idsubclasse");
+//		ligacoesLicenca.add("codigoclasse");
+		ligacoesLicenca.add("codigoporte");
+		ligacoesLicenca.add("codigopotencial");
+		ligacoesLicenca.add("idSituacao");
+		
+		csvToXml();
+	}
+	
+	public void csvToXml() {
+		try {
+			InputStream is = new FileInputStream(CAMINHO_CSV+"licenca.csv");
+			Scanner sc = new Scanner(is);
+			
+			String[] cabecalho = sc.nextLine().split("[;|\\t]");
+			int total = 0;
+			
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder builder = factory.newDocumentBuilder();
+			Document doc = builder.newDocument();
+			
+			Element raiz = doc.createElement("licencas");
+			doc.appendChild(raiz);
+			
+			while(sc.hasNextLine() && total < 200000) {
+				total ++;
+				String linha = sc.nextLine();
+				linha = linha + ";end";
+				String[] s = linha.split("[;|\\t]");
+				if(s.length == 32) {
+					Element elemento = criaElemento(s, cabecalho, doc);
+					raiz.appendChild(elemento);
+				}
+			}
+			
+			TransformerFactory tFactory = TransformerFactory.newInstance();
+			Transformer optimusPrime = tFactory.newTransformer();
+			DOMSource source = new DOMSource(doc);
+			StreamResult result = new StreamResult(CAMINHO_XML+"licenca.xml");
+			
+			optimusPrime.setOutputProperty(OutputKeys.INDENT, "yes");
+			optimusPrime.setOutputProperty("{http://xml.apache.org/xskt}ident-amount", "4");
+			
+			optimusPrime.transform(source, result);
+			
+			sc.close();
+			
+		} catch(ParserConfigurationException | TransformerException | IOException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("\tConversão concluída!");
+	}
+	
+	
+	public static Element criaElemento(String [] s, String [] cabecalho, Document doc) {
+		Element licenca = doc.createElement("licenca");
+		Attr idlicenca = doc.createAttribute("idlicenca");
+		idlicenca.setValue(String.valueOf(s[0]));
+		licenca.setAttributeNode(idlicenca);
+		
+		for(int i = 1; i < s.length-1; i ++) {
+			if(ligacoesLicenca.contains(cabecalho[i]) && (!s[i].equals(""))) {
+				Element subtag = subElemento(cabecalho[i], s[i], doc);
+				licenca.appendChild(subtag);
+			}
+			else {
+				Element tag = doc.createElement(cabecalho[i]);
+				tag.appendChild(doc.createTextNode(check(s[i])));
+				licenca.appendChild(tag);
+			}
+		}
+		
+		return licenca;
+	}
+	
+	
+	public static Element subElemento(String cabecalho, String valor, Document doc ) {
+		boolean find = false;
+		Element subtag = null;
+		if(cabecalho.equals("CodigoAssunto")) {
+			subtag = doc.createElement("Assunto");
+			for(int j = 1; j < assunto_processo.size(); j ++) {
+				if(assunto_processo.get(j)[0].equals(valor)) {
+					Element codigoAssunto = doc.createElement(cabecalho);
+					codigoAssunto.appendChild(doc.createTextNode(valor));
+					subtag.appendChild(codigoAssunto);
+					
+					Element descricaoAssunto = doc.createElement(assunto_processo.get(0)[1]);
+					descricaoAssunto.appendChild(doc.createTextNode(check(assunto_processo.get(j)[1])));
+					subtag.appendChild(descricaoAssunto);
+					
+					Element siglaAssunto = doc.createElement(assunto_processo.get(0)[2]);
+					siglaAssunto.appendChild(doc.createTextNode(check(assunto_processo.get(j)[2])));
+					subtag.appendChild(siglaAssunto);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("CodigoMunicipio")) {
+			subtag = doc.createElement("Municipio");
+			for(int j = 0; j < Municipios.size(); j ++) {
+				if(Municipios.get(j)[0].equals(valor)) {
+					Element cod_ibge = doc.createElement(Municipios.get(0)[0]);
+					cod_ibge.appendChild(doc.createTextNode(check(Municipios.get(j)[0])));
+					subtag.appendChild(cod_ibge);
+					
+					Element nome_municipio = doc.createElement(Municipios.get(0)[1]);
+					nome_municipio.appendChild(doc.createTextNode(check(Municipios.get(j)[1])));
+					subtag.appendChild(nome_municipio);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("codigoporte")) {
+			subtag = doc.createElement("Enquadramento_porte");
+			for(int j = 1; j < Enquadramento_porte.size(); j ++) {
+				if(Enquadramento_porte.get(j)[0].equals(valor)) {
+					Element subsubtag = subElemento(Enquadramento_porte.get(0)[1], Enquadramento_porte.get(j)[1], doc);
+					subtag.appendChild(subsubtag);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idporte")) {
+			subtag = doc.createElement("porte");
+			for(int j = 1; j < porte.size(); j ++) {
+				if(porte.get(j)[1].equals(valor)) {
+//					Element desc_porte = doc.createElement(porte.get(0)[0]);
+					Element desc_porte = doc.createElement("desc_porte");
+					desc_porte.appendChild(doc.createTextNode(check(porte.get(j)[0])));
+					subtag.appendChild(desc_porte);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("codigopotencial") && !valor.equals("")) {
+			subtag = doc.createElement("Enquadramento_potencial");
+			for(int j = 1; j < Enquadramento_potencial.size(); j ++) {
+				if(Enquadramento_potencial.get(j)[0].equals(valor)) {
+					Element subsubtag = subElemento(Enquadramento_potencial.get(0)[1], Enquadramento_potencial.get(j)[1], doc);
+					subtag.appendChild(subsubtag);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idpotencial") && !valor.equals("")) {
+			subtag = doc.createElement("potencial");
+			for(int j = 1; j < potencial.size(); j ++) {
+				if(potencial.get(j)[1].equals(valor)) {
+//					Element desc_potencial = doc.createElement(potencial.get(0)[0]);
+					Element desc_potencial = doc.createElement("desc_potencial");
+					desc_potencial.appendChild(doc.createTextNode(check(potencial.get(j)[0])));
+					subtag.appendChild(desc_potencial);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idempreendimento")) {
+			subtag = doc.createElement("Empreendimento");
+			for(int j = 0; j < empreendimento.size(); j ++) {
+				if(empreendimento.get(j)[0].equals(valor)) {
+//					Element idempreendimento = doc.createElement(empreendimento.get(0)[0]);
+					Element idempreendimento = doc.createElement("idempreendimento");
+					idempreendimento.appendChild(doc.createTextNode(check(empreendimento.get(j)[0])));
+					subtag.appendChild(idempreendimento);
+					
+					Element CNPJ_CPF = doc.createElement(empreendimento.get(0)[1]);
+					CNPJ_CPF.appendChild(doc.createTextNode(check(empreendimento.get(j)[1])));
+					subtag.appendChild(CNPJ_CPF);
+
+					Element Endereco = doc.createElement(empreendimento.get(0)[2]);
+					Endereco.appendChild(doc.createTextNode(check(empreendimento.get(j)[2])));
+					subtag.appendChild(Endereco);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idEmpreendedor")) {
+			subtag = doc.createElement("Empreendedor");
+			for(int j = 0; j < empreendedor.size(); j ++) {
+				if(empreendedor.get(j)[0].equals(valor)) {
+//					Element idEmpreendedor = doc.createElement(empreendedor.get(0)[0]);
+					Element idEmpreendedor = doc.createElement("idEmpreendedor");
+					idEmpreendedor.appendChild(doc.createTextNode(check(empreendedor.get(j)[0])));
+					subtag.appendChild(idEmpreendedor);
+					
+					Element Razao_Social = doc.createElement(empreendedor.get(0)[1]);
+					Razao_Social.appendChild(doc.createTextNode(check(empreendedor.get(j)[1])));
+					subtag.appendChild(Razao_Social);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idSituacao")) {
+			subtag = doc.createElement("Situacao");
+			for(int j = 0; j < situacao_licenca.size(); j ++) {
+				if(situacao_licenca.get(j)[0].equals(valor)) {
+//					Element idSituacao = doc.createElement(situacao_licenca.get(0)[0]);
+					Element idSituacao = doc.createElement("idSituacao");
+					idSituacao.appendChild(doc.createTextNode(check(situacao_licenca.get(j)[0])));
+					subtag.appendChild(idSituacao);
+					
+					Element situacao = doc.createElement(situacao_licenca.get(0)[1]);
+					situacao.appendChild(doc.createTextNode(check(situacao_licenca.get(j)[1])));
+					subtag.appendChild(situacao);
+					
+					find = true;
+				}
+			}
+		}
+		
+		else if(cabecalho.equals("idsubclasse")) {
+			subtag = doc.createElement("Subtipologia_classe");
+			for(int j = 0; j < Subtipologia_classe.size(); j ++) {
+				if(Subtipologia_classe.get(j)[0].equals(valor)) {
+//					Element idsubclasse = doc.createElement(Subipologia_classe.get(0)[0]);
+					Element idsubclasse = doc.createElement("idsituacao");
+					idsubclasse.appendChild(doc.createTextNode(check(Subtipologia_classe.get(j)[0])));
+					subtag.appendChild(idsubclasse);
+					
+					Element codigo_subclasse = doc.createElement(Subtipologia_classe.get(0)[1]);
+					codigo_subclasse.appendChild(doc.createTextNode(check(Subtipologia_classe.get(j)[1])));
+					subtag.appendChild(codigo_subclasse);
+					
+					Element desc_classe = doc.createElement(Subtipologia_classe.get(0)[2]);
+					desc_classe.appendChild(doc.createTextNode(check(Subtipologia_classe.get(j)[2])));
+					subtag.appendChild(desc_classe);
+					
+					find = true;
+				}
+			}
+		}
+		if(find == false){
+//			subtag = doc.createElement(cabecalho);
+			Element esc = doc.createElement(cabecalho);
+			esc.appendChild(doc.createTextNode(check(valor)));
+			subtag.appendChild(esc);
+		}
+		
+		return subtag;
+	}
+	
+	
+	public static String check(String text) {
+		if(text.equals("")) {
+			return "-";
+		}
+		return text;
+	}
+	
+	
+	public static List<String[]> readCSV(String filename) {
+		List<String[]> csv = new ArrayList<>();
+		
+		try {
+			InputStream is = new FileInputStream(CAMINHO_CSV+filename+".csv");
+			Scanner sc = new Scanner(is);
+			
+			String[] pl = sc.nextLine().split("[;|\\t]");
+			csv.add(pl);
+			
+			while(sc.hasNextLine()) {
+				String[] s = sc.nextLine().split("[;|\\t]");
+				csv.add(s);
+			}
+			sc.close();
+			
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		return csv;
+	}
+	
+}

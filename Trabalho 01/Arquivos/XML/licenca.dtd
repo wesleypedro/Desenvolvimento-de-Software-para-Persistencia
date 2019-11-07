@@ -1,0 +1,48 @@
+<!ELEMENT licencas (licenca+)>
+<!ELEMENT licenca (Assunto, idProcesso, data_cadastro, Razao_Social, CNPJ_CPF, idempreendimento, idEmpreendedor, Inscriacao_estadual, Endereco, cep, numero, Bairro, complemento, Municipio, validade_licenca, Subtipologia_classe, codigoclasse, Enquadramento_porte, Enquadramento_potencial, emissao_licenca, Situacao, cd_seg, cod_cabure, Caracterizacao, Resumo_consulta, Requisitos, observacao, despacho, objetivo_aut, observacao_aut)>
+<!ELEMENT Assunto (CodigoAssunto, DescricaoAssunto, SiglaAssunto)>
+<!ELEMENT CodigoAssunto (#PCDATA)>
+<!ELEMENT DescricaoAssunto (#PCDATA)>
+<!ELEMENT SiglaAssunto (#PCDATA)>
+<!ELEMENT idProcesso (#PCDATA)>
+<!ELEMENT data_cadastro (#PCDATA)>
+<!ELEMENT Razao_Social (#PCDATA)>
+<!ELEMENT CNPJ_CPF (#PCDATA)>
+<!ELEMENT idempreendimento (#PCDATA)>
+<!ELEMENT idEmpreendedor (#PCDATA)>
+<!ELEMENT Inscriacao_estadual (#PCDATA)>
+<!ELEMENT Endereco (#PCDATA)>
+<!ELEMENT cep (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT Bairro (#PCDATA)>
+<!ELEMENT complemento (#PCDATA)>
+<!ELEMENT Municipio (cod_ibge, nome_municipio)>
+<!ELEMENT cod_ibge (#PCDATA)>
+<!ELEMENT nome_municipio (#PCDATA)>
+<!ELEMENT validade_licenca (#PCDATA)>
+<!ELEMENT Subtipologia_classe (idsituacao, codigo_subclasse, desc_classe)>
+<!ELEMENT idsituacao (#PCDATA)>
+<!ELEMENT codigo_subclasse (#PCDATA)>
+<!ELEMENT desc_classe (#PCDATA)>
+<!ELEMENT codigoclasse (#PCDATA)>
+<!ELEMENT Enquadramento_porte (porte)>
+<!ELEMENT porte (desc_porte)>
+<!ELEMENT desc_porte (#PCDATA)>
+<!ELEMENT Enquadramento_potencial (codigopotencial*, potencial*)>
+<!ELEMENT codigopotencial (#PCDATA)>
+<!ELEMENT potencial (desc_potencial*)>
+<!ELEMENT desc_potencial (#PCDATA)>
+<!ELEMENT emissao_licenca (#PCDATA)>
+<!ELEMENT Situacao (idSituacao, situacao)>
+<!ELEMENT idSituacao (#PCDATA)>
+<!ELEMENT situacao (#PCDATA)>
+<!ELEMENT cd_seg (#PCDATA)>
+<!ELEMENT cod_cabure (#PCDATA)>
+<!ELEMENT Caracterizacao (#PCDATA)>
+<!ELEMENT Resumo_consulta (#PCDATA)>
+<!ELEMENT Requisitos (#PCDATA)>
+<!ELEMENT observacao (#PCDATA)>
+<!ELEMENT despacho (#PCDATA)>
+<!ELEMENT objetivo_aut (#PCDATA)>
+<!ELEMENT observacao_aut (#PCDATA)>
+<!ATTLIST licenca idlicenca CDATA #REQUIRED>

@@ -1,0 +1,37 @@
+package model;
+
+public class Empreendimento {
+	private String idempreendimento;
+	private String CNPJ_CPF;
+	private String Endereco;
+	
+	public Empreendimento(String idempreendimento, String cNPJ_CPF, String endereco) {
+		this.idempreendimento = idempreendimento;
+		this.CNPJ_CPF = cNPJ_CPF;
+		this.Endereco = endereco;
+	}
+
+	public String getIdempreendimento() {
+		return idempreendimento;
+	}
+
+	public void setIdempreendimento(String idempreendimento) {
+		this.idempreendimento = idempreendimento;
+	}
+
+	public String getCNPJ_CPF() {
+		return CNPJ_CPF;
+	}
+
+	public void setCNPJ_CPF(String cNPJ_CPF) {
+		CNPJ_CPF = cNPJ_CPF;
+	}
+
+	public String getEndereco() {
+		return Endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		Endereco = endereco;
+	}
+}

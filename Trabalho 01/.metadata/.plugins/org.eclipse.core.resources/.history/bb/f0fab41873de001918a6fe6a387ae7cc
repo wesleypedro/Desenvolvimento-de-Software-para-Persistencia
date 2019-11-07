@@ -1,0 +1,13 @@
+package model;
+
+public class Empreendedor {
+	private String idEmpreendedor;
+	private String Razao_Social;
+	
+	public Empreendedor(String idEmpreendedor, String razao_Social) {
+		this.idEmpreendedor = idEmpreendedor;
+		this.Razao_Social = razao_Social;
+	}
+	
+	
+}

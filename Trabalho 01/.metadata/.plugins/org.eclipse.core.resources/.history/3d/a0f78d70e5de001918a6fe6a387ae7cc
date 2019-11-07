@@ -1,0 +1,27 @@
+package model;
+
+public class Empreendedor {
+	private String idEmpreendedor;
+	private String Razao_Social;
+	
+	public Empreendedor(String idEmpreendedor, String razao_Social) {
+		this.idEmpreendedor = idEmpreendedor;
+		this.Razao_Social = razao_Social;
+	}
+
+	public String getIdEmpreendedor() {
+		return idEmpreendedor;
+	}
+
+	public void setIdEmpreendedor(String idEmpreendedor) {
+		this.idEmpreendedor = idEmpreendedor;
+	}
+
+	public String getRazao_Social() {
+		return Razao_Social;
+	}
+
+	public void setRazao_Social(String razao_Social) {
+		Razao_Social = razao_Social;
+	}
+}
